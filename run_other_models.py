@@ -262,7 +262,7 @@ def evaluate_with_text_only(method, base_path, dataset_folder, score_threshold):
     elif method == 'Hunflair2':
         from flair.models.prefixed_tagger import PrefixedSequenceTagger
         print('Evaluating Hunflair2...')
-        tagger = PrefixedSequenceTagger.load("../related_works/Hunflair2/pretrained_models/hunflair2_NER/pytorch_model.bin")
+        tagger = PrefixedSequenceTagger.load("./finetuned_models/hunflair2-ner/pytorch_model.bin")
     elif method == 'BERN2':
         print('Evaluating BERN2...')
     elif method == 'Mmeds_Llama3':
