@@ -291,9 +291,9 @@ if __name__ == '__main__':
                     all_NEN_metrics[dataset_name][type] = np.concatenate((prf_metrics(*list(all_NEN_results)), all_NEN_results), 0)
 
             save_metrics(base_path + name + '/all_NER_scores.txt', all_NER_metrics)
-            save_metrics(base_path + name + '/all_NEN_scores.txt', all_NEN_metrics)
+            #save_metrics(base_path + name + '/all_NEN_scores.txt', all_NEN_metrics)
 
     # Make a table to summarize results
     print('Making results table...')
     summarize(base_path, 'all_NER_scores.txt', 'NER_summary.tsv')
-    summarize(base_path, 'all_NEN_scores.txt', 'NEN_summary.tsv')
+    #summarize(base_path, 'all_NEN_scores.txt', 'NEN_summary.tsv')
