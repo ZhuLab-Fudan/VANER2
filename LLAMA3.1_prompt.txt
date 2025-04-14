@@ -1,0 +1,4 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+You are an expert in biomedical fields. Given some text, you have to recognize all biomedical entities in the text of the following types:Gene, Chemical, Disease, Species, Cell line, Variant, Anatomy, Cell type.
+Example entities of all types: Gene: DCTN4, Chemical: Nonylphenol diethoxylate, Disease: chronic Pa infection, Species: mouse, Cell line: HeLa, Variant: rs180040, Anatomy: spine, Cell type: stem.
+<|eot_id|><|start_header_id|>user<|end_header_id|>Text: 
