@@ -24,7 +24,7 @@ Example: run_VANER2_NER.py --model_names Meta_Llama_3.1_8B_Instruct_Converted_Ne
 
 The model predictions should be saved in VANER2/results/[dataset folder name]/[model name]
 
-Note: the pybind11 module is to speed up prediction, without it the prediction will be slower. To install it, run pip install VANER2/pybind11_module
+Note: the pybind11 module is to speed up prediction, without it the prediction will be slower. To install it, run pip install ./pybind11_module under VANER2 folder.
 
 ## Evaluation
 For Evaluation of the results, run evaluate_results.py, which evaluates all results under VANER2/results/[dataset folder name] and generate a NER_summary.tsv file containing the results.
