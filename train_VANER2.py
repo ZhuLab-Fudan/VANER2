@@ -353,7 +353,7 @@ def train(save_path, data_use_percentage, pretrained_encoder = None):
                                 zip_label.append([0,1,size1])
                                 single_pred = bio2brat(zip_pred, use_bioe)
                                 single_label = bio2brat(zip_label, use_bioe)
-                                NER_results, _ = count_tp([single_pred], [single_label])
+                                NER_results = count_tp([single_pred], [single_label])
                                 all_results += NER_results
 
                 precision, recall, f_score = prf_metrics(*list(all_results[:3]))
