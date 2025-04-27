@@ -55,7 +55,7 @@ def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None):
         new_annos = []
         for anno in annos:
             # remove cell suffix in cell line predictions
-            if len(anno) >= 3 and anno[3] == 'CellLine':
+            if len(anno) >= 4 and anno[3] == 'CellLine':
                 ori_name = copy.deepcopy(anno[2])
                 if anno[2][-5:].lower() == 'cells':
                     anno[2] = anno[2][:-5].strip()
