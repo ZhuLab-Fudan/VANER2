@@ -46,7 +46,7 @@ Disease-linker: https://huggingface.co/hunflair/biosyn-sapbert-ncbi-disease
 
 Species-linker: https://huggingface.co/hunflair/sapbert-ncbi-taxonomy
 
-After that, run evaluate_results.py --evaluate_NEN True to evaluate Entity linking results.
+After that, run python evaluate_results.py --evaluate_NEN True to evaluate Entity linking results.
 
 [1] Sänger M, Garda S, Wang X D, et al. HunFlair2 in a cross-corpus evaluation of biomedical named entity recognition and normalization tools[J]. Bioinformatics, 2024, 40(10): btae564.
 
