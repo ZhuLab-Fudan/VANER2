@@ -13,7 +13,7 @@ Pretrained parameters of VANER2 can be downloaded at https://zenodo.org/records/
 ## Prediction
 For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trained models in VANER2/results]
 
-Example: run_VANER2_NER.py --model_names Meta_Llama_3.1_8B_Instruct_Converted_New_True_True_True_4_1.00
+Example: python run_VANER2_NER.py --model_names Meta_Llama_3.1_8B_Instruct_Converted_New_True_True_True_4_1.00
 
 The model predictions should be saved in VANER2/results/[dataset folder name]/[model name]
 
