@@ -153,7 +153,7 @@ if __name__ == '__main__':
         file_path = base_path + name + '/predictions/'
         if os.path.exists(file_path):
             for file_name in os.listdir(file_path):
-                print('filepath:', file_path)
+                print('Running NEN on:', file_name)
                 all_ids, all_lines, all_texts, all_annos = read_pub(file_path + file_name)
                 all_annos = run_nen(linkers, all_ids, all_texts, all_annos, batch_size = 128)
 
