@@ -181,9 +181,9 @@ def run_single_model(model_path, dataset_folder):
     label2id = {'O': 0, 'I': 1, 'B': 2, 'E': 3} if use_bioe else {'O': 0, 'I': 1, 'B': 2}
     id2label = {v: k for k, v in label2id.items()}
     if dataset_folder is not None:
-        test_path = './data/Medical_NER_datasets/' + dataset_folder + '/test/'
+        test_path = './data/' + dataset_folder + '/test/'
     else:
-        test_path = './data/Medical_NER_datasets/' + saved['dataset_folder'] + '/test/'
+        test_path = './data/' + saved['dataset_folder'] + '/test/'
 
     print("Evaluating datasets in path: ")
     all_paths = glob.glob(test_path + '**/*.pubtator', recursive=True)
