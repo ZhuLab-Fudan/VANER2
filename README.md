@@ -7,15 +7,7 @@
 Llama-3.1-8B-Instruct: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct  
 PubmedBERT: https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext  
 BiolinkBERT: https://huggingface.co/michiyasunaga/BioLinkBERT-base  
-
-## Train
-run train_VANER2.py --base_model_path [path to the model folder]  
-
-Example: train_VANER2.py --base_model_path ./base_models/BioLinkBERT-base  
-
-The LoRA adaptor params of the trained models should be saved in VANER2/finetuned_models/[model name]  
-
-Pretrained parameters of VANER2 can also be downloaded at https://zenodo.org/records/15210322, and unziped to VANER2/finetuned_models  
+Pretrained parameters of VANER2 can be downloaded at https://zenodo.org/records/15210322, and unziped to VANER2/finetuned_models  
 
 ## Prediction
 For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trained models in VANER2/results]
