@@ -6,7 +6,8 @@
 3. Download the base models from the following links and put them under VANER2/base_models:  
 Llama-3.1-8B-Instruct: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct  
 PubmedBERT: https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext  
-BiolinkBERT: https://huggingface.co/michiyasunaga/BioLinkBERT-base  
+BiolinkBERT: https://huggingface.co/michiyasunaga/BioLinkBERT-base
+
 Pretrained parameters of VANER2 can be downloaded at https://zenodo.org/records/15210322, and unziped to VANER2/finetuned_models  
 
 ## Prediction
