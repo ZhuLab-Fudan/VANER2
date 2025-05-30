@@ -137,8 +137,10 @@ if __name__ == '__main__':
 
     print(f"Loading entity linking models: {entity_types}")
 
+    ## Download entity linking models
     linkers = {et: EntityMentionLinker.load(f"{et.lower()}-linker") for et in entity_types}
 
+    ## Load entity linking models locally
     # linker_path = './Hunflair2_pretrained_models/'
     # linkers = {et: EntityMentionLinker.load(linker_path + f"{et.lower()}_linker/pytorch_model.bin") for et in entity_types}
 
