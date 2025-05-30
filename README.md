@@ -31,6 +31,9 @@ Note that for Hunflair2, you need to download the model from https://huggingface
 
 For scispacy, you need to install four scispacy models en_ner_craft_md, en_ner_jnlpba_md, en_ner_bc5cdr_md, en_ner_bionlp13cg_md. see https://github.com/allenai/scispacy for guidelines.
 
+AIONER needs a separate python environment, thus are not included in our code, please refer to https://github.com/ncbi/AIONER to reproduce their results.
+Similarly, for VANER, please refer to https://github.com/Eulring/VANER.
+
 ## Entity Linking
 
 Additionally, to compare with the Entity Linking results in Hunflair2, you can run the code run_hunflair2_NEN.py to automatically add Entity Linking results to the NER results of VANER2 using the pretrained models of Hunflair2 [1]. The code will automatically download the EL models from the flair repository. Alternatively, you can download the EL models from the following links manually and modify run_hunflair2_NEN.py to load the downloaded models:
