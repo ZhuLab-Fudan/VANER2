@@ -42,8 +42,9 @@ def read_pub(file):
     return all_pmid, all_text, all_annos
 
 # Input two list of annotations sets and calculate METRICS
-def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None):
+def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None, evaluate_NEN = False):
     total_NER_tp, total_NER_fp, total_NER_fn = 0, 0, 0
+    total_NEN_tp, total_NEN_fp, total_NEN_fn = 0, 0, 0
     nwrong = 0
     nmiss = 0
     nmore = 0
@@ -54,14 +55,6 @@ def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None):
 
         new_annos = []
         for anno in annos:
-            # remove cell suffix in cell line predictions
-            if len(anno) >= 4 and anno[3] == 'CellLine':
-                ori_name = copy.deepcopy(anno[2])
-                if anno[2][-5:].lower() == 'cells':
-                    anno[2] = anno[2][:-5].strip()
-                if anno[2][-4:].lower() == 'cell':
-                    anno[2] = anno[2][:-4].strip()
-                anno[1] = anno[1] + len(anno[2]) - len(ori_name)
             if select_type is None or anno[3] == select_type:
                 new_annos.append(anno)
         annos = new_annos
@@ -72,9 +65,19 @@ def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None):
                 new_gold_annos.append(anno)
         gold_annos = new_gold_annos
 
-        NER_tp = 0
+        NER_tp, NEN_tp = 0, 0
         annos = sorted(annos, key = lambda x:x[0] * POS_CONST + x[1])
         gold_annos = sorted(gold_annos, key=lambda x: x[0] * POS_CONST + x[1])
+
+        if evaluate_NEN:
+            NEN_tot_annos = 0
+            NEN_tot_gold_annos = 0
+            for item in annos:
+                if len(item) >= 5 and item[4] != 'None':
+                    NEN_tot_annos += 1
+            for item in gold_annos:
+                if len(item) >= 5 and item[4] != 'None':
+                    NEN_tot_gold_annos += 1
 
         pos = 0
         temp = [0 for i in range(len(gold_annos))]
@@ -84,6 +87,12 @@ def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None):
             if pos < len(gold_annos) and gold_annos[pos][0] == anno[0] and gold_annos[pos][1] == anno[1]:
                 NER_tp += 1
                 temp[pos] = 1
+
+                if evaluate_NEN:
+                    if len(anno) >= 5 and len(gold_annos[pos]) >= 5:
+                        if anno[4] != 'None' and gold_annos[pos][4] != 'None':
+                            if anno[4] == gold_annos[pos][4]:
+                                NEN_tp += 1
             else:
                 # find the interval in labels that overlaps the most with current interval
                 if pos < len(gold_annos):
@@ -113,9 +122,14 @@ def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None):
         total_NER_tp += NER_tp
         total_NER_fp += len(annos) - NER_tp
         total_NER_fn += len(gold_annos) - NER_tp
+        total_NEN_tp += NEN_tp
+        total_NEN_fp += NEN_tot_annos - NEN_tp
+        total_NEN_fn += NEN_tot_gold_annos - NEN_tp
 
     all_NER_results = np.array([total_NER_tp, total_NER_fp, total_NER_fn, nwrong, nmiss, nmore, nless, noverlap])
-    return all_NER_results
+    all_NEN_results = np.array([total_NEN_tp, total_NEN_fp, total_NEN_fn])
+
+    return all_NER_results, all_NEN_results if evaluate_NEN else None
 
 def prf_metrics(total_tp, total_fp, total_fn):
     precision = total_tp / (total_tp + total_fp + 1e-6)
@@ -193,12 +207,15 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_folder", type=str,
                         default='Converted_New')  # dataset folder to evaluate, if None, use the test set of the trained dataset
+    parser.add_argument("--evaluate_NEN", type=str,
+                        default='False')  # dataset folder to evaluate, if None, use the test set of the trained dataset
     args = parser.parse_args()
     return args
 
 if __name__ == '__main__':
 
     args = parse_arguments()
+    evaluate_NEN = args.evaluate_NEN.lower() == 'true'
     dataset_folder = args.dataset_folder
     base_path = './results/' + dataset_folder + '/'
     gold_annos_path = './data/Medical_NER_datasets/' + dataset_folder + '/test/'
@@ -207,11 +224,15 @@ if __name__ == '__main__':
     for name in os.listdir(path=base_path):
         preds_path = base_path + name + '/predictions/'
         all_NER_metrics = {}
+        all_NEN_metrics = {}
+
         if os.path.exists(preds_path):
             print('Evaluating results in ' + preds_path)
             for file_name in os.listdir(preds_path):
                 dataset_name = file_name.split('.')[0]
                 all_NER_metrics[dataset_name] = {}
+                all_NEN_metrics[dataset_name] = {}
+
             for file_name in os.listdir(preds_path):
                 dataset_name = file_name.split('.')[0]
                 all_pmid, all_text, all_doc_annos = read_pub(preds_path + file_name)
@@ -226,11 +247,19 @@ if __name__ == '__main__':
 
                 # match results for each type
                 for type in all_types:
-                    all_NER_results = count_tp(all_doc_annos, all_doc_gold_annos, type)
-                    all_NER_metrics[dataset_name][type] = np.concatenate((prf_metrics(*list(all_NER_results[:3])), all_NER_results),0)
+                    all_NER_results, all_NEN_results = count_tp(all_doc_annos, all_doc_gold_annos, type, evaluate_NEN)
+                    all_NER_metrics[dataset_name][type] = np.concatenate(
+                        (prf_metrics(*list(all_NER_results[:3])), all_NER_results), 0)
+                    if evaluate_NEN:
+                        all_NEN_metrics[dataset_name][type] = np.concatenate(
+                            (prf_metrics(*list(all_NEN_results)), all_NEN_results), 0)
 
-            save_metrics(base_path + name + '/all_NER_scores.txt', all_NER_metrics)
+        save_metrics(base_path + name + '/all_NER_scores.txt', all_NER_metrics)
+        if evaluate_NEN:
+            save_metrics(base_path + name + '/all_NEN_scores.txt', all_NEN_metrics)
 
     # Make a table to summarize results
     print('Making results table...')
     summarize(base_path, 'all_NER_scores.txt', 'NER_summary.tsv')
+    if evaluate_NEN:
+        summarize(base_path, 'all_NEN_scores.txt', 'NEN_summary.tsv')
