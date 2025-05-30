@@ -1,7 +1,7 @@
 # VANER2: Towards more general biomedical named entity recognition using multi-task large language model encoders
 
 ## Preparation
-1. Create python environment with requirements.txt.  
+1. Create python 3.10 environment with requirements.txt.  
 2. Download the train and test data from https://zenodo.org/records/15209913 and unzip to VANER2/data folder.  
 3. Download the base models from the following links and put them under VANER2/base_models:  
 Llama-3.1-8B-Instruct: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct  
