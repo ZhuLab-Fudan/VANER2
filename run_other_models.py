@@ -185,63 +185,6 @@ def Pubtator3_retrieve(session_id, offsets, doc_ids):
 
     return predictions
 
-def Mmeds_Llama3_predict(sdk_api, input_types, text, offsets, doc_ids):
-    map_dict = {'Gene': 'Gene', 'Chemical': 'Chemical', 'Organism': 'Species', 'Disease': 'Disease'}
-
-    splitted_texts = []
-    splitted_offsets = []
-
-    occurs = [m.start() for m in re.finditer(re.escape('.'), text)]
-    last_pos = 0
-    for i in range(len(occurs)):
-        if occurs[i] - last_pos > 100:
-            splitted_texts.append(text[last_pos:occurs[i]])
-            splitted_offsets.append(last_pos)
-            last_pos = occurs[i]
-    splitted_texts.append(text[last_pos:])
-    splitted_offsets.append(last_pos)
-
-    predictions = []
-    for split_text, split_offset in zip(splitted_texts, splitted_offsets):
-        # assert len(split_text) <= 500
-
-        annos = []
-        split_text_no_space = ''
-        char_pos = []
-        for i in range(len(split_text)):
-            if split_text[i] != ' ':
-                split_text_no_space += split_text[i]
-                char_pos.append(i)
-        char_pos.append(len(split_text))
-
-        for type in input_types:
-            INSTRUCTION = f"Given a document, recognize the names of {type}. Be sure to output only {type} entities, and ignore other entities. There might be multiple correct answers. If none exist, output \"There is no related entity.\"."
-            results = sdk_api.chat([], split_text, INSTRUCTION)
-            for ent in results.strip('.').split(','):
-                ent = ent.replace(' ','')
-                if (type, ent) not in annos:
-                    annos.append((type, ent))
-
-        processed_annos = []
-        for anno in annos:
-            occurs = [m.start() for m in re.finditer(re.escape(anno[1]), split_text_no_space)]
-            if occurs != []:
-                for occur in occurs:
-                    start = char_pos[occur]
-                    end = char_pos[occur + len(anno[1])]
-                    if anno[0] in map_dict:
-                        entity_type = map_dict[anno[0]]
-                        entity_linking = 'None'
-                        if (start, end, entity_type) not in processed_annos:
-                            processed_annos.append((start, end, entity_type))
-                            new_begin = start + split_offset
-                            new_end = end + split_offset
-                            doc_pos = bisect.bisect_right(offsets, new_begin) - 1
-                            predictions.append((entity_type, entity_linking, doc_ids[doc_pos],
-                                                new_begin - offsets[doc_pos], new_end - offsets[doc_pos], 1.0))
-
-    return predictions
-
 def Scispacy_predict(spacy_models, text, offsets, doc_ids):
     predictions = []
     accept_types_dict = {'GENE_OR_GENE_PRODUCT': 'Gene', 'CHEMICAL': 'Chemical', 'DISEASE': 'Disease', 'TAXON': 'Species', 'CELL_LINE': 'CellLine', 'CELL': 'CellType',
@@ -265,13 +208,6 @@ def evaluate_with_text_only(method, base_path, dataset_folder, score_threshold):
         tagger = PrefixedSequenceTagger.load("./finetuned_models/hunflair2-ner/pytorch_model.bin")
     elif method == 'BERN2':
         print('Evaluating BERN2...')
-    elif method == 'Mmeds_Llama3':
-        sys.path.insert(0, '../related_works/Mmeds_Llama3/')
-        from mmeds_llama3 import MedS_Llama3
-        print('Evaluating Mmeds_Llama3...')
-        input_types = ['Gene', 'Chemical', 'Disease', 'Organism']
-        sys.path.insert(0, '../related_works/Mmeds_Llama3/')
-        sdk_api = MedS_Llama3(model_path="../related_works/Mmeds_Llama3/finetuned_models/MMedS-Llama-3-8B", gpu_id=0)
     elif method == 'Scispacy':
         import scispacy
         import spacy
@@ -340,9 +276,6 @@ def evaluate_with_text_only(method, base_path, dataset_folder, score_threshold):
                     all_type_ids.append(out_id)
                 all_predictions.append([])
                 all_session_ids.append(all_type_ids)
-            elif method == 'Mmeds_Llama3':
-                predictions = Mmeds_Llama3_predict(sdk_api, input_types, text_batch, batch_offsets, doc_ids)
-                all_predictions.append(predictions)
             elif method == 'Scispacy':
                 predictions = Scispacy_predict(spacy_models, text_batch, batch_offsets, doc_ids)
                 all_predictions.append(predictions)
@@ -406,11 +339,9 @@ if __name__ == '__main__':
     args = parse_arguments()
     base_path = './results/' + args.dataset_folder + '/'
 
-    # evaluate_with_text_only('Mmeds_Llama3', base_path, args.dataset_folder, score_threshold = 0.7)
-
-    # evaluate_with_text_only('Pubtator3', base_path, args.dataset_folder, score_threshold = 0.7)
-    # evaluate_with_text_only('BERN2', base_path, args.dataset_folder, score_threshold = 0.7)
-    # evaluate_with_text_only('Hunflair2', base_path, args.dataset_folder, score_threshold = 0.7)
+    evaluate_with_text_only('Pubtator3', base_path, args.dataset_folder, score_threshold = 0.7)
+    evaluate_with_text_only('BERN2', base_path, args.dataset_folder, score_threshold = 0.7)
+    evaluate_with_text_only('Hunflair2', base_path, args.dataset_folder, score_threshold = 0.7)
     evaluate_with_text_only('Scispacy', base_path, args.dataset_folder, score_threshold=0.7)
 
 
