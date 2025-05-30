@@ -36,8 +36,11 @@ For scispacy, you need to install four scispacy models en_ner_craft_md, en_ner_j
 Additionally, to compare with the Entity Linking results in Hunflair2, you can run the code run_hunflair2_NEN.py to automatically add Entity Linking results to the NER results of VANER2 using the pretrained models of Hunflair2 [1]. The code will automatically download the EL models from the flair repository. Alternatively, you can download the EL models from the following links manually and modify run_hunflair2_NEN.py to load the downloaded models:
 
 Gene-linker: https://huggingface.co/hunflair/biosyn-sapbert-bc2gn
+
 Chemical-linker: https://huggingface.co/hunflair/biosyn-sapbert-bc5cdr-chemical
+
 Disease-linker: https://huggingface.co/hunflair/biosyn-sapbert-ncbi-disease
+
 Species-linker: https://huggingface.co/hunflair/sapbert-ncbi-taxonomy
 
 After that, run evaluate_results.py --evaluate_NEN True to evaluate Entity linking results.
