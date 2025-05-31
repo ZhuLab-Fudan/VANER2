@@ -1,0 +1,107 @@
+125380|PMID:25763772|t|DCTN4 as a modifier of chronic Pseudomonas aeruginosa infection in cystic fibrosis
+125380|a|Pseudomonas aeruginosa (Pa) infection in cystic fibrosis (CF) patients is associated with worse long-term pulmonary disease and shorter survival, and chronic Pa infection (CPA) is associated with reduced lung function, faster rate of lung decline, increased rates of exacerbations and shorter survival. By using exome sequencing and extreme phenotype design, it was recently shown that isoforms of dynactin 4 (DCTN4) may influence Pa infection in CF, leading to worse respiratory disease. The purpose of this study was to investigate the role of DCTN4 missense variants on Pa infection incidence, age at first Pa infection and chronic Pa infection incidence in a cohort of adult CF patients from a single centre. Polymerase chain reaction and direct sequencing were used to screen DNA samples for DCTN4 variants. A total of 121 adult CF patients from the Cochin Hospital CF centre have been included, all of them carrying two CFTR defects: 103 developed at least 1 pulmonary infection with Pa, and 68 patients of them had CPA. DCTN4 variants were identified in 24 (29/121) CF patients with Pa infection and in only 17 (3/18) CF patients with no Pa infection. Of the patients with CPA, 29 (20/68) had DCTN4 missense variants vs 23 (8/35) in patients without CPA. Interestingly, p.Tyr263Cys tend to be more frequently observed in CF patients with CPA than in patients without CPA (4/68 vs 0/35), and DCTN4 missense variants tend to be more frequent in male CF patients with CPA bearing two class II mutations than in male CF patients without CPA bearing two class II mutations (P = 0.06). Our observations reinforce that DCTN4 missense variants, especially p.Tyr263Cys, may be involved in the pathogenesis of CPA in male CF...
+125380	0	5	DCTN4	Gene	UMLS:C4308010
+125380	23	63	chronic Pseudomonas aeruginosa infection	Disease	UMLS:C0854135
+125380	67	82	cystic fibrosis	Disease	UMLS:C0010674
+125380	83	120	Pseudomonas aeruginosa (Pa) infection	Disease	UMLS:C0854135
+125380	124	139	cystic fibrosis	Disease	UMLS:C0010674
+125380	141	143	CF	Disease	UMLS:C0010674
+125380	189	206	pulmonary disease	Disease	UMLS:C0024115
+125380	233	253	chronic Pa infection	Disease	UMLS:C0854135
+125380	255	258	CPA	Disease	UMLS:C0854135
+125380	469	477	isoforms	Gene	UMLS:C0597298
+125380	481	491	dynactin 4	Gene	UMLS:C4308010
+125380	493	498	DCTN4	Gene	UMLS:C4308010
+125380	514	526	Pa infection	Disease	UMLS:C0854135
+125380	530	532	CF	Disease	UMLS:C0010674
+125380	551	570	respiratory disease	Disease	UMLS:C0035204
+125380	629	634	DCTN4	Gene	UMLS:C4308010
+125380	644	652	variants	Gene	UMLS:C0597298
+125380	656	668	Pa infection	Disease	UMLS:C0854135
+125380	693	705	Pa infection	Disease	UMLS:C0854135
+125380	710	730	chronic Pa infection	Disease	UMLS:C0854135
+125380	762	764	CF	Disease	UMLS:C0010674
+125380	864	875	DNA samples	CellComponent	UMLS:C0444245
+125380	880	885	DCTN4	Gene	UMLS:C4308010
+125380	886	894	variants	Gene	UMLS:C0597298
+125380	917	919	CF	Disease	UMLS:C0010674
+125380	1009	1013	CFTR	Gene	UMLS:C1413365
+125380	1048	1067	pulmonary infection	Disease	UMLS:C0876973
+125380	1073	1075	Pa	Species	UMLS:C0033809
+125380	1105	1108	CPA	Disease	UMLS:C0854135
+125380	1110	1115	DCTN4	Gene	UMLS:C4308010
+125380	1116	1124	variants	Gene	UMLS:C0597298
+125380	1156	1158	CF	Disease	UMLS:C0010674
+125380	1173	1185	Pa infection	Disease	UMLS:C0854135
+125380	1208	1210	CF	Disease	UMLS:C0010674
+125380	1228	1240	Pa infection	Disease	UMLS:C0854135
+125380	1263	1266	CPA	Disease	UMLS:C0854135
+125380	1283	1288	DCTN4	Gene	UMLS:C4308010
+125380	1298	1306	variants	Gene	UMLS:C0597298
+125380	1340	1343	CPA	Disease	UMLS:C0854135
+125380	1360	1371	p.Tyr263Cys	Gene	UMLS:C0597298
+125380	1411	1413	CF	Disease	UMLS:C0010674
+125380	1428	1431	CPA	Disease	UMLS:C0854135
+125380	1457	1460	CPA	Disease	UMLS:C0854135
+125380	1481	1486	DCTN4	Gene	UMLS:C4308010
+125380	1496	1504	variants	Gene	UMLS:C0597298
+125380	1538	1540	CF	Disease	UMLS:C0010674
+125380	1555	1558	CPA	Disease	UMLS:C0854135
+125380	1603	1605	CF	Disease	UMLS:C0010674
+125380	1623	1626	CPA	Disease	UMLS:C0854135
+125380	1702	1707	DCTN4	Gene	UMLS:C4308010
+125380	1717	1725	variants	Gene	UMLS:C0597298
+125380	1738	1749	p.Tyr263Cys	Gene	UMLS:C0597298
+125380	1790	1793	CPA	Disease	UMLS:C0854135
+125380	1802	1804	CF	Disease	UMLS:C0010674
+
+23|None|t|(B) Autophagy-negative phenotype of the apg16D strain. The autophagic ability of wild-type (TN125), apg12D (YNM107) and apg16D cells (YNM114) was measured by the alkaline phosphatase assay before (black bars) and after (white bars) nitrogen starvation for 4 h. Error bars indicate the standard deviation of three independent experiments.
+23|a|..
+23	92	97	TN125	Species	NCBI taxon:4932
+23	108	114	YNM107	Species	NCBI taxon:4932
+23	134	140	YNM114	Species	NCBI taxon:4932
+
+13699|None|t|EZH2 and ZFX oncogenes in malignant behaviour of parathyroid neoplasms
+13699|a|Several studies reported somatic mutations of many genes (MEN1, CTNNB1, CDKIs and others) in parathyroid adenoma, although with different prevalence. Recently, activating mutations of the EZH2 and ZFX oncogenes were identified in benign parathyroid adenoma by whole exome sequencing. The same mutations had been found in blood and ovary malignant tumours. On one hand, this result raised the hypothesis that these oncogenes may play a role in the onset of parathyroid tumour, but it would also suggest they may be involved in malignant, rather benign, parathyroid neoplasm. Our aim was to verify the occurrence of selected mutations of the EZH2 and ZFX genes in an Italian cohort of 23 sporadic parathyroid carcinomas, 12 atypical and 45 typical adenomas. DNA was extracted from paraffin-embedded tissues, PCR amplified and directly sequenced. No mutations were detected in the coding sequence and boundaries of both genes in any of the samples. Two polymorphisms of the EZH2 gene were identified with different prevalence: the rs2072407 variant was present in the 30 of the samples, in keeping with the overall frequency in larger populations, while the rs78589034 variant, located close to the 5' end of the exon 16, was detected in only one proband with familial isolated hyperparathyroidism; we investigated the possible outcome on the splicing process. EZH2 and ZFX genes do not seem to have an impact on the onset of most parathyroid tumours, both benign and malignant, though further studies on larger cohorts of different ethnicity are needed..
+13699	49	70	parathyroid neoplasms	Disease	MESH:D010282
+13699	164	183	parathyroid adenoma	Disease	MESH:D010282
+13699	308	327	parathyroid adenoma	Disease	MESH:D010282
+13699	408	425	malignant tumours	Disease	MESH:D009369
+13699	527	545	parathyroid tumour	Disease	MESH:D010282
+13699	623	643	parathyroid neoplasm	Disease	MESH:D010282
+13699	766	788	parathyroid carcinomas	Disease	MESH:D010282
+13699	817	825	adenomas	Disease	MESH:D000236
+13699	1346	1365	hyperparathyroidism	Disease	MESH:D006961
+13699	1499	1518	parathyroid tumours	Disease	MESH:D010282
+
+13701|None|t|A Randomized Controlled Noninferiority Trial of Single Dose of Oral Dexamethasone Versus 5 Days of Oral Prednisone in Acute Adult Asthma
+13701|a|Oral dexamethasone demonstrates bioavailability similar to that of oral prednisone but has a longer half-life. We evaluate whether a single dose of oral dexamethasone plus 4 days of placebo is not inferior to 5 days of oral prednisone in treatment of adults with mild to moderate asthma exacerbations to prevent relapse defined as an unscheduled return visit for additional treatment for persistent or worsening asthma within 14 days. Adult emergency department patients (aged 18 to 55 years) were randomized to receive either a single dose of 12 mg of oral dexamethasone with 4 days of placebo or a 5- day course of oral prednisone 60 mg a day. Outcomes including relapse were assessed by a follow-up telephone interview at 2 weeks. One hundred seventy-three dexamethasone and 203 prednisone subjects completed the study regimen and telephone follow-up. The dexamethasone group by a small margin surpassed the preset 8 difference between groups for noninferiority in relapse rates within 14 days (12.1 versus 9.8 ; difference 2.3 ; 95 confidence interval -4.1 to 8.6 ). Subjects in the 2 groups had similar rates of hospitalization for their relapse visit (dexamethasone 3.4 versus prednisone 2.9 ; difference 0.5 ; 95 confidence interval -4.1 to 3.1 ). Adverse effect rates were generally the same in the 2 groups. A single dose of oral dexamethasone did not demonstrate noninferiority to prednisone for 5 days by a very small margin for treatment of adults with mild to moderate asthma exacerbations. Enhanced compliance and convenience may support the use of dexamethasone regardless..
+13701	130	136	Asthma	Disease	MESH:D001249
+13701	549	555	asthma	Disease	MESH:D001249
+13701	897	910	dexamethasone	Chemical	MESH:D003907
+13701	919	929	prednisone	Chemical	MESH:D011241
+13701	996	1009	dexamethasone	Chemical	MESH:D003907
+13701	1295	1308	dexamethasone	Chemical	MESH:D003907
+13701	1320	1330	prednisone	Chemical	MESH:D011241
+13701	1528	1538	prednisone	Chemical	MESH:D011241
+13701	1700	1713	dexamethasone	Chemical	MESH:D003907
+
+18097|None|t|The fibrinogen gamma 10034C>T polymorphism is not associated with Peripheral Arterial Disease.
+18097|a|Conversion of fibrinogen to fibrin plays an essential role in hemostasis and results in stabilization of the fibrin clot. Fibrinogen consists of three pairs of non-identical polypeptide chains, encoded by different genes (fibrinogen alpha [FGA], fibrinogen beta [FGB] and fibrinogen gamma [FGG]). A functional single nucleotide polymorphism (SNP) in the 3' untranslated region of the FGG gene (FGG 10034C>T, rs2066865) has been associated with deep venous thrombosis and myocardial infarction. Aim of the present study was to analyze the role of this polymorphism in peripheral arterial disease (PAD). The study was designed as case-control study including 891 patients with documented PAD and 777 control subjects. FGG genotypes were determined by exonuclease (TaqMan) assays. FGG genotype frequencies were not significantly different between PAD patients (CC: 57.3 , CT: 36.7 , TT: 5.8 ) and control subjects (CC: 60.9 , CT: 33.5 , TT 5.6 ; p=0.35). In a multivariate logistic regression analysis including age, sex, smoking, diabetes, arterial hypertension and hypercholesterolemia, the FGG 10034 T variant was not significantly associated with the presence of PAD (Odds ratio 1.07, 95 confidence interval 0.84 - 1.37; p = 0.60). The FGG 10034C>T polymorphism was furthermore not associated with age at onset of PAD. We conclude that the thrombophilic FGG 10034 T gene variant does not contribute to the genetic susceptibility to PAD..
+18097	4	20	fibrinogen gamma	Gene	NCBI Gene:2266
+18097	109	119	fibrinogen	Gene	NCBI Gene:2266,NCBI Gene:2243,NCBI Gene:2244
+18097	217	227	Fibrinogen	Gene	NCBI Gene:2266,NCBI Gene:2243,NCBI Gene:2244
+18097	317	333	fibrinogen alpha	Gene	NCBI Gene:2243
+18097	335	338	FGA	Gene	NCBI Gene:2243
+18097	341	356	fibrinogen beta	Gene	NCBI Gene:2244
+18097	358	361	FGB	Gene	NCBI Gene:2244
+18097	367	383	fibrinogen gamma	Gene	NCBI Gene:2266
+18097	385	388	FGG	Gene	NCBI Gene:2266
+18097	479	482	FGG	Gene	NCBI Gene:2266
+18097	489	492	FGG	Gene	NCBI Gene:2266
+18097	811	814	FGG	Gene	NCBI Gene:2266
+18097	873	876	FGG	Gene	NCBI Gene:2266
+18097	1185	1188	FGG	Gene	NCBI Gene:2266
+18097	1332	1335	FGG	Gene	NCBI Gene:2266
+18097	1450	1453	FGG	Gene	NCBI Gene:2266
+
