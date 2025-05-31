@@ -15,9 +15,9 @@ For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trai
 
 Example: python run_VANER2_NER.py --model_names VANER2
 
-The model predictions should be saved in VANER2/results/[dataset folder name]/[model name]
+The model predictions should be saved in results/[dataset folder name]/[model name]
 
-Note: 20GB GPU memory is required. The pybind11 module is to speed up prediction, without it the prediction will be slower. To install it, run pip install ./pybind11_module under VANER2 folder.
+Note: 20GB GPU memory is required. The pybind11 module is to speed up prediction, without it the prediction will be slower. To install it, run pip install ./pybind11_module
 
 ## Evaluation
 For Evaluation of the results, run evaluate_results.py, which evaluates all results under results/[dataset folder name] and generate a NER_summary.tsv file containing the results.
