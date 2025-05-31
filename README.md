@@ -3,12 +3,8 @@
 ## Preparation
 1. Create python 3.10 environment with requirements.txt.
 2. Due to possible copyright issues, the training and testing dataset will not be directly available, but is available upon reasonable request. We provided example data in the data folder.
-3. Download the base models from the following links and put them under base_models folder:  
-Llama-3.1-8B-Instruct: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct  
-PubmedBERT: https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext  
-BiolinkBERT: https://huggingface.co/michiyasunaga/BioLinkBERT-base
-
-Pretrained parameters of VANER2 can be downloaded at https://huggingface.co/droidlyx866/VANER2, and unziped to finetuned_models folder.
+3. Download the base models from the following links and put them under base_models folder:  Llama-3.1-8B-Instruct: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct  
+4. Pretrained parameters of VANER2 can be downloaded at https://huggingface.co/droidlyx866/VANER2, and unziped to finetuned_models folder.
 
 ## Prediction
 For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trained models in VANER2/results]
