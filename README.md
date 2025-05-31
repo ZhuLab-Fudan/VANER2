@@ -7,7 +7,7 @@
 4. Pretrained parameters of VANER2 can be downloaded at https://huggingface.co/droidlyx866/VANER2, and unziped to finetuned_models folder.
 
 ## Prediction
-For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trained models in VANER2/results]
+For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trained models in the results folder]
 
 Example: python run_VANER2_NER.py --model_names VANER2
 
