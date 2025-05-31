@@ -8,7 +8,7 @@ Llama-3.1-8B-Instruct: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct
 PubmedBERT: https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext  
 BiolinkBERT: https://huggingface.co/michiyasunaga/BioLinkBERT-base
 
-Pretrained LoRA adapter parameters of VANER2 can be downloaded at https://huggingface.co/droidlyx866/VANER2, and unziped to finetuned_models folder.
+Pretrained parameters of VANER2 can be downloaded at https://huggingface.co/droidlyx866/VANER2, and unziped to finetuned_models folder.
 
 ## Prediction
 For VANER2 prediction, run run_VANER2_NER.py --model_names [folder names of trained models in VANER2/results]
