@@ -1,47 +1,650 @@
-40641|PMC:5278616|t|.
-40641|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
+129765|PMID:28550154|t|An amperometric H2O2 biosensor based on hemoglobin nanoparticles immobilized onto a gold electrode
+129765|a|The nanoparticles (NPs) of hemoglobin (Hb) were prepared by desolvation method and characterized by transmission electron microscopy (TEM), ultraviolet (UV) spectroscopy and Fourier-transform infrared spectroscopy (FTIR). An amperometric H2O2 biosensor was constructed by immobilizing Hb NPs covalently onto a polycrystalline Au electrode (Au E). Hb NPs / Au E was characterized by scanning electron microscopy (SEM), cyclic voltammetry (CV) and electrochemical impedance spectra (EIS) before and after immobilization of Hb NPs. The Hb NPs / Au electrode showed optimum response within 2.5s at pH 6.5 in 0.1M sodium phosphate buffer containing 100uM H2O2 and 300C, when operated at -0.2V against Ag/AgCl. The H bN Ps/ A uE exhibited Vmax of 5.161+0.1 uA cm(-2) with Michaelis-Menten constant (Km) of 0.1+0.01mM. The biosensor showed lower detection limit (1.0uM), high sensitivity (129+0.25uA cm(-2) mM(-1)) and wider linear range (1.0-1200uM) for H2O2 as compared to earlier biosensors. The analytical recoveries of added H2O2 in serum (0.5uM and1.0uM) were 97.77 and 98.01 respectively and within and between batch coefficients of variation (CV) were 3.16 and 3.36 respectively. There was a good correlation between sera H2O2 values obtained by standard enzymic colourimetric method and the present biosensor (R(2)=0.99). The biosensor measured H2O2 level in sera of apparently healthy subjects and persons suffering from diabetes type II. The Hb NPs / Au electrode lost 10 of its initial activity after 90 days of its regular uses, when stored dry at 4(o)C.
+129765	16	20	H2O2	Chemical	UMLS:C0020281
+129765	40	50	hemoglobin	Gene	UMLS:C0019046
+129765	84	88	gold	Chemical	UMLS:C0018026
+129765	126	136	hemoglobin	Gene	UMLS:C0019046
+129765	138	140	Hb	Gene	UMLS:C0019046
+129765	337	341	H2O2	Chemical	UMLS:C0020281
+129765	384	386	Hb	Gene	UMLS:C0019046
+129765	409	424	polycrystalline	Chemical	UMLS:C0444626
+129765	425	427	Au	Chemical	UMLS:C0018026
+129765	439	441	Au	Chemical	UMLS:C0018026
+129765	446	448	Hb	Gene	UMLS:C0019046
+129765	455	457	Au	Chemical	UMLS:C0018026
+129765	620	622	Hb	Gene	UMLS:C0019046
+129765	632	634	Hb	Gene	UMLS:C0019046
+129765	641	643	Au	Chemical	UMLS:C0018026
+129765	708	731	sodium phosphate buffer	Chemical	UMLS:C3256935
+129765	749	753	H2O2	Chemical	UMLS:C0020281
+129765	810	812	bN	Gene	UMLS:C0019046
+129765	819	821	uE	Chemical	UMLS:C0018026
+129765	1047	1051	H2O2	Chemical	UMLS:C0020281
+129765	1122	1126	H2O2	Chemical	UMLS:C0020281
+129765	1130	1135	serum	Anatomy	UMLS:C0229671
+129765	1317	1321	sera	Anatomy	UMLS:C0229671
+129765	1322	1326	H2O2	Chemical	UMLS:C0020281
+129765	1355	1362	enzymic	Gene	UMLS:C0014442
+129765	1446	1450	H2O2	Chemical	UMLS:C0020281
+129765	1460	1464	sera	Anatomy	UMLS:C0229671
+129765	1523	1539	diabetes type II	Disease	UMLS:C0011860
+129765	1545	1547	Hb	Gene	UMLS:C0019046
+129765	1554	1556	Au	Chemical	UMLS:C0018026
 
-40640|PMC:5278616|t|.
-40640|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
+122983|PMC:4967961|t|.
+122983|a|(E) Effect of HA-HuR expression on miRNA levels on EV and non-EV fractions of the culture supernatant collected from control and HA-HuR encoding plasmid transfected Huh7 cells. For isolation of non-EV fraction, supernatant obtained after removal of EVs by ultracentrifugation was used for RNA preparation (left panel) (mean+/- s.e.m., n=3). Effect of HuR expression on CD63, Alix and HuR levels in EVs. Extracts from EVs isolated from control or HA-HuR expressing Huh7 cells were western blotted for respective proteins (right panel).
+122983	16	18	HA	Gene	Ignored
+122983	19	22	HuR	Gene	Ignored
+122983	53	55	EV	CellComponent	Ignored
+122983	64	66	EV	CellComponent	Ignored
+122983	131	133	HA	Gene	Ignored
+122983	134	137	HuR	Gene	Uniprot:Q15717
+122983	167	171	Huh7	CellLine	Cellosaurus:CVCL_0336
+122983	200	202	EV	CellComponent	Ignored
+122983	251	254	EVs	CellComponent	Ignored
+122983	353	356	HuR	Gene	Uniprot:Q15717
+122983	371	375	CD63	Gene	Uniprot:P08962
+122983	377	381	Alix	Gene	Uniprot:Q8WUM4
+122983	386	389	HuR	Gene	Uniprot:Q15717
+122983	400	403	EVs	CellComponent	Ignored
+122983	419	422	EVs	CellComponent	Ignored
+122983	448	450	HA	Gene	Ignored
+122983	451	454	HuR	Gene	Uniprot:Q15717
+122983	466	470	Huh7	CellLine	Cellosaurus:CVCL_0336
 
-40642|PMC:5278616|t|.
-40642|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
+124631|PMID:17696610|t|Mouse Pachytene Checkpoint 2 (Trip13) Is Required for Completing Meiotic Recombination but Not Synapsis
+124631|a|.Abstract..In mammalian meiosis, homologous chromosome synapsis is coupled with recombination. As in most eukaryotes, mammalian meiocytes have checkpoints that monitor the fidelity of these processes. We report that the mouse ortholog (Trip13) of pachytene checkpoint 2 (PCH2), an essential component of the synapsis checkpoint in Saccharomyces cerevisiae and Caenorhabditis elegans, is required for completion of meiosis in both sexes. TRIP13-deficient mice exhibit spermatocyte death in pachynema and loss of oocytes around birth. The chromosomes of mutant spermatocytes synapse fully, yet retain several markers of recombination intermediates, including RAD51, BLM, and RPA. These chromosomes also exhibited the chiasmata markers MLH1 and MLH3, and okadaic acid treatment of mutant spermatocytes caused progression to metaphase I with bivalent chromosomes. Double mutant analysis demonstrated that the recombination and synapsis genes Spo11, Mei1, Rec8, and Dmc1 are all epistatic to Trip13, suggesting that TRIP13 does not have meiotic checkpoint function in mice. Our data indicate that TRIP13 is required after strand invasion for completing a subset of recombination events, but possibly not those destined to be crossovers. To our knowledge, this is the first model to separate recombination defects from asynapsis in mammalian meiosis, and provides the first evidence that unrepaired DNA damage alone can trigger the pachytene checkpoint response in mice...Author Summary....It is critical that the chromosomes carried by sperm and eggs contain faithful representations of the genome of the individual that produced them. During the process of meiosis, the maternal and paternal copies of each chromosome "synapse" with each other (become tightly associated), exchange genetic material via the process of recombination, then separate into daughter cells in the first of two meiotic cell divisions. The intricate chromosome behavior is subject to errors, so most organisms have evolved meiotic "checkpoints" that monitor fidelity of chromosome synapsis and repair of DNA damage. These checkpoints cause defective cells to self destruct rather than generate defective sperm or eggs. We studied the effects of deleting mouse Trip13, a gene that in distant organisms plays a key role in meiotic checkpoint control. These experiments revealed that instead of having a checkpoint role, Trip13 is required for one of the two major classes of recombination in meiosis that is required for repairing broken DNA molecules. The chromosomes still synapsed normally, but animals were sterile due to massive death of oocytes and spermatocytes. These results indicate that, in addition to a checkpoint that responds to failed synapsis, one exists to specifically detect unrepaired DNA damage that is due to failed recombination...Introduction..The genesis of gametes containing an intact, haploid genome is critical for the prevention of birth defects, and is highly dependent upon the fidelity of chromosome dynamics before the first meiotic division. Homologous chromosomes must pair, synapse, undergo recombination, and segregate properly to opposite poles. Recombination, which repairs repair double strand breaks (DSBs) that are genetically induced in leptonema, is coupled with synapsis in budding yeast and mammals. While our knowledge of the assembly and nature of recombination machinery is extensive, little is known about the disassembly of recombination intermediates, recruitment of DNA replication machinery during recombinational repair, and how the choice between different repair pathways is made...Defects in recombination can preclude homologous chromosome pairing, leave unrepaired chromosome breaks, and cause aneuploidy by abrogating crossing over. To avoid such deleterious outcomes, surveillance systems ("checkpoints") exist to sense meiotic errors and eliminate cells containing unresolved defects. In many organisms, including S. cerevisiae, Drosophila melanogaster, C. elegans, and mice [1-4], meiocytes with defects in recombination and/or chromosome synapsis trigger meiotic arrest in the pachytene stage of meiotic prophase I. This response to meiotic defects is referred to as the "pachytene checkpoint" (reviewed in [5]). Genetic experiments in S. cerevisiae have identified elements of the pachytene checkpoint machinery (reviewed in [5]). In addition to meiosis-specific proteins, these include factors that play roles in DNA damage signaling in mitotic cells [6-10]. Arabidopsis thaliana does not appear to have a pachytene checkpoint akin to that in yeast [11], nor do male Drosophila...The pachytene checkpoint is known to monitor two aspects of meiotic chromosome metabolism in S. cerevisiae and C. elegans: (1) DSB repair and (2) chromosome synapsis [2,12]. In mice, both spermatocytes and oocytes harboring mutations that disrupt DSB repair (such as Dmc1, Msh5, and Atm) are efficiently eliminated in pachynema, but spermatocytes are much more sensitive to DSB repair-independent synapsis defects than oocytes [13-15]. However, because recombination is required for synapsis in mice (mutations in recombination genes such as Dmc1 cause extensive asynapsis [16]), it has remained formally uncertain whether there is a distinct pachytene checkpoint that responds to defects in meiotic recombination, and if so, whether it would be identical to that used in somatic cells. The mechanisms of putative pachytene checkpoint control remain unknown in mammals, since no mutations have been identified that abolish it...PCH2, encoding a nucleolar-localized AAA-ATPase that was originally identified in an S. cerevisiae genetic screen for mutants that relieve pachytene arrest of asynaptic zip1 mutants [8], was recently determined to be an essential component of the pachytene synapsis (but not DSB repair) checkpoint in yeast and worms [2,12]. PCH2 orthologs are present in organisms that undergo synaptic meiosis, but not asynaptic meiosis, prompting the suggestion that a Pch2-dependent checkpoint evolved to monitor synaptonemal complex (SC) defects from yeast to humans [12]. Here, we generated mice deficient for the Trip13, the ortholog of PCH2, and evaluated whether it also plays a role in the pachytene checkpoint. Surprisingly, while we found no evidence for checkpoint function, we did uncover a potential role for this protein in noncrossover (NCO) repair of meiotic DSBs...Results..Trip13 Is a Widely Expressed Mammalian Ortholog of PCH2 with Unusual Phylogenetic Relationships..The mammalian ortholog of PCH2, Trip13 (thyroid hormone receptor interacting protein 13), encodes a protein with extensive amino acid homology in regions alignable to the yeast and worm orthologs (Figure S1) [12]). Interestingly, phylogenetic analysis of TRIP13/Pch2p shows that the mammalian protein clusters more closely to plants than it does to the evolutionarily more closely related worms and flies (Figure 1A; see Discussion). Semi-quantitative reverse-transcriptase PCR (RT-PCR) analysis showed Trip13 mRNA to be expressed in a variety of embryonic and adult tissues, including testis (Figure 1B), consistent with mouse and human EST data summarized in Unigene (http://www.ncbi.nlm.nih.gov/UniGene). It is also highly expressed in human and mouse oocytes [17]...Figure 1..The Mouse PCH2 Ortholog TRIP13 and Expression in Wild Type and Mutant..(A) Phylogenetic tree of presumed PCH2/TRIP13 orthologs. The database sequence accession number of each protein is presented in Table S1. Numbers shown are bootstrap values (see Materials and Methods). The clustering was the same regardless of whether the whole entire AA sequence or trimmed sequences (where regions showing little conservation were removed) were used for the analysis. Major eukaryotic groups are indicated in color, with deuterostomia in blue, plants in green, protostomia in purple, and fungi in maroon...(B) Amplification products of cDNA from the following tissues: 1, heart; 2, brain; 3, spleen; 4, lung; 5, liver; 6, skeletal muscle; 7, kidney; 8, testis; 9, E7 embryo; 10, E11 embryo; 11, E15 embryo; and 12, E17 embryo...(C) Intron-exon structure of TRIP13 and insertion site of gene-trap vector. See Materials and Methods for details on how the precise insertion site was identified...(D) RT-PCR of Trip13 and a control gene Med31 from testis RNA. The Trip13 primers are situated in the first and last exons (see Materials and Methods)...(E) Western blot analysis of testis protein with anti-TRIP13 antibody. The blot was later probed with anti-alpha tubulin actin as a loading control. The expected TRIP13 protein is 48 KDa...(F) Localization of TRIP13 in testes. Wild-type (top) and mutant (bottom) testis sections were probed with chicken anti-TRIP13, and detected with HRP-conjugated anti-chicken IgG (brown/red staining). Expression in WT was most prominent in the nuclei of Type B spermatogonia (Sg), leptotene spermatocytes (LS), and early pachytene spermatocytes (PS), but not late pachytene spermatocytes (LP). No nuclear staining was seen in mutant testis sections, although reddish cytoplasmic background is present. Identification of cell types was judged in part by estimating the epithelial stage of the tubules as described [67]...(G) TRIP13 localization in surface-spread spermatocytes. Preparations were immunolabeled with anti-SYCP3 (S) and TRIP13 (T). Both individual and merged images are shown for leptotene (Lep), zygotene (Zyg), and pachytene (Pac) spermatocytes. Nuclear staining was absent in the mutant...Generation of Trip13 Mutant Mice..To explore the function of TRIP13 in mammals, we generated mice with a gene trap-disrupted allele, Trip13RRB047 (Figure 1C; abbreviated as Trip13Gt). Heterozygotes were normal in all respects, but homozygotes were present at 2/3 the expected ratio from intercrosses between heterozygotes (91 Trip13+/+, 183 Trip13Gt/+, and 61 Trip13Gt/Gt). Since >90 of prewean mice that died were mutant homozygotes, this discrepancy is apparently due to a partially penetrant lethality. Most surviving Trip13Gt/Gt animals were grossly normal. However, homozygotes that were semi-congenic (N4) on the C57BL/6J strain were often markedly smaller and/or had kinked or shorter tails (Figure 2A and 2B)...Figure 2..Developmental Phenotypes of Trip13 Mutant Mice..(A) Shown are 21-d-old littermates. Note the shortened tail in the mutant, but overall similar body size...(B) Shown are 23-d-old littermates. The mutant is smaller in this case, but the tail is not as truncated as the mouse in (A)...(C) Wild-type (WT) and homozygous Trip13 mutant (MUT) testes...(D) and (E) are cross sections through 17.5-d-old heterozygous ("WT") and homozygous mutant Trip13 testes, respectively. Whereas the tubules in WT show coordinated spermatogenesis with pachytene spermatocytes present in all tubules (proximal to the lumen), developmental progression in the mutant is not synchronized between tubules. Some tubules have no pachytene spermatocyes (asterisks), while in others, development is somewhat disorganized (#)...RT-PCR analysis of Trip13Gt expression (Figure 1D) revealed a low level of normally spliced transcripts in testes of homozygotes that is presumably a consequence of incomplete usage of the gene trap's splice acceptor. Western blot analysis, using a polyclonal antibody raised against a peptide encoded by exon 3, revealed multiple species in wild-type and heterozygous testes, one of which corresponds to the expected size of 48 kDa (Figure 1E). This and three other species were undetectable in homozygous mutant testes, but a reduced amount of an intense 38 kDa smaller band was present. It is not clear if this corresponds to TRIP13. The greatly decreased Trip13 mRNA and predicted correct-length protein in mutants indicate that the Trip13RRB047 allele is severely hypomorphic...To determine the germ cell types in which TRIP13 is expressed, and to assess possible expression in the mutant by means other than Western analysis, testis sections were immunolabeled for TRIP13 using a polyclonal chicken antipeptide antibody (see Materials and Methods). The most intensely labeled cells in control testes were Type B spermatogonia and leptotene spermatocytes (Figure 1F). Zygotene/pachytene spermatocytes stained less strongly, and there was no detectable staining in late pachytene spermatocytes. TRIP13 appeared to be nuclear localized. There was no such staining of nuclei in mutant seminiferous tubules (Figure 1F). To further assess the nuclear localization, TRIP13 was used to probe meiotic chromosomes prepared by surface spreading of spermatocyte nuclei. In wild type, there was diffuse nuclear staining, and no evidence of concentration on SC cores (marked by the axial element protein SYCP3) at any meiotic substage (Figure 1G). TRIP13 signal was noticeably absent in mutant meiotic nuclei...Infertility Due to Meiotic Disruption in TRIP13-Deficient Meiocytes..Homozygotes of both sexes had small gonads (Figure 2C; see below) and were invariably sterile. Ovaries of adult Trip13Gt/Gt females were severely dysmorphic and had few or no follicles (Figure 3A and 3B). The majority of oocyte loss occurred in late embryogenesis or early in postnatal development, since 2 d postpartum ovaries were markedly smaller than those of control littermates, and were lacking oocytes or newly forming follicles (Figure 3C and 3D). Thus, oocytes failed to progress to the dictyate (resting) phase. Since we observed oocytes with pachytene stage chromosomes in 17.5 d Trip13Gt/Gt embryonic ovaries (unpublished data), this indicates that oocytes were eliminated somewhere between pachynema and dictyate...Figure 3..Histology of Mutant Gonads..All are hematoxylin/eosin-stained paraffin sections. Testes are from 6-wk-old males, except as indicated below...(A) Wild-type 25-d-old ovary...(B) Trip13Gt/Gt 25-d-old ovary, showing dysgenesis from an absence of oocytes...(C) Trip13Gt/+ 2-d-old control ovary. Arrows point to oocytes in newly forming follicles...(D) Trip13Gt/Gt 2-d-old ovary, dysgenic due to lack of oocytes. Magnification is the same as its littermate in "C."..(E) Wild-type testis...(F) Trip13Gt/Gt testis with uniform pachytene arrest...(G) Trip13Gt/Gt 3-mo-old testis with some postmeiotic spermatids (arrows)...(H) Spo11-/- testis. A tubule with spermatocytes at leptotene/zygotene transition is labeled ZP, and tubules with apoptotic spermatocytes are marked with an asterisk. The specimen was taken from a littermate of that in (I)...(I) Spo11-/- Trip13Gt/Gt testis. Labeling is the same as in (H). The inset contains a tubule with leptotene-zygotene spermatocytes...(J) Mei1-/- Trip13Gt/+ testis. The specimen was taken from a littermate of that in (K)...(K) Mei1-/- Trip13Gt/Gt testis...(L) Rec8Mei8/Rec8Mei8 Trip13Gt/+ testis. The Rec8Mei8 allele was described [39]. The specimen was taken from a littermate of that in (M)...(M) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt testis...(N) Dmc1-/- Trip13Gt/Gt testis...(O) Spo11-/- Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (P)...(P) Spo11-/- Trip13Gt/Gt 25-d-old ovary...(Q) Mei1-/- Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (R)...(R) Mei1-/- Trip13Gt/Gt 25-d-old ovary...(S) Rec8Mei8/Rec8Mei8 Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (T)...(T) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt 25-d-old ovary...Histological sections of mutant testes revealed a lack of postmeiotic cell types that are characteristic of wild-type seminiferous tubules (Figure 3E). The most developmentally advanced seminiferous tubules contained adluminal spermatocytes with condensed chromatin characteristic of pachynema (Figure 3F). The absence of coordinated spermatogenic progression beyond this stage is indicative of a pachytene arrest. This was revealed more clearly by chromosome analysis (see below). Some sections of adult seminiferous tubules contained postmeiotic spermatids (Figure 3G), although we saw no motile epididymal sperm. These drastic meiotic defects stand in contrast to yeast and C. elegans, in which deletion of Pch2 alone has minor effects on spore/gamete development [2,8]...TRIP13-Deficient Meiocytes Undergo Homologous Chromosome Synapsis Despite the Presence of Unrepaired DSBs in Pachynema..To better characterize the degree of meiotic progression in Trip13Gt/Gt spermatocytes, we immunostained chromosome spreads for SYCP3 and SYCP1, components of the axial/lateral elements and transverse filaments, respectively, of the synaptonemal complex (SC). Pachytene spermatocyte nuclei from postpubertal mutant testes could assemble normal SC cores and exhibited full synapsis of chromosomes as judged by colabeling of SYCP1 and SYCP3 along the full lengths of all autosomes (Figure 4A). Additionally, the X and Y chromosomes were normally synapsed at their pseudoautosomal region. More prepubertal (17.5 d postpartum) mutant spermatocytes contained asynaptic or terminally asynapsed chromosomes than age-matched controls (62.5 versus 25 , respectively; Figure 4B). We attribute this to a delay in the first wave of postnatal spermatogenesis (Figure 2D and 2E), likely related to systemic developmental retardation (Figure 2A and 2B). Nevertheless, since Trip13Gt/Gt spermatocytes progress to pachynema with no gross SC abnormalities, and oocytes were eliminated soon after birth (a characteristic of DNA repair mutants [13]), this suggested that unrepaired DSBs are responsible for eventual meiotic arrest and elimination...Figure 4..Immunohistochemical Analysis of Pachytene Spermatocyte Chromosomes..Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores. As indicated in the upper right of each panel, cells were from wild type (WT, either +/+ or Trip13Gt/+) or Trip13Gt/Gt (Mut). There were no differences seen between heterozygotes and +/+ spermatocytes...(A) A mutant pachytene nucleus with full synapsis. Areas of SYCP1/SYCP3 colabeling are yellow...(B-E) Spermatocytes nucleus from 17.5 d postpartum mutant. Asynapsed chromosomes or regions of chromosomes are indicated by white and yellow arrows, respectively. Unlike the normal distribution in wild-type pachytene spermatocytes (C), BLM foci are present on synapsed pachytene chromosomes in the mutant (D). RAD51 foci, which are abundant earlier in prophase, disappear from autosomes in wild-type pachytene nuclei (E) and the bulk of staining is over the XY body (arrow)...(F) RAD51 persists on the synapsed mutant chromosomes (arrows)...(G) H2AX phosphorylation is restricted to the XY body in WT...(H) In addition to a large area of gH2AX staining (arrow) over the XY body, there is extensive autosomal H2AX phosphorylation (arrows)...(I, J) Note that in wild-type pachytene spermatocytes, TOPBP1 is present only over the XY body (yellow arrow). In the mutant (J), an arrow denotes one area of intensive staining that may be over the sex chromosomes, but many other chromosome cores are positively stained...(K, L) RPA persists along synapsed cores in the mutant, not WT...(M, N) Arrows indicate examples of MLH3 foci on SCs...(O) In WT late pachytene spermatocytes, RAD51 is present only at background levels...(P) As in (F), extensive RAD51 staining delineates SCs in mutant pachytene nuclei (indicated by white arcs). MLH1 foci colocalize with these tracts (arrows) at the typical 1-2 foci per chromosome as in (M)...To elucidate the cause of meiotic arrest, we analyzed meiotic chromosomes with a variety of markers that are diagnostic of recombination and synapsis. Recombination in Trip13Gt/Gt spermatocytes appeared to initiate normally as judged by the presence of gH2AX in leptonema (Figure S2A and S2B), which reflects the presence of meiotically induced DSBs [18]. RAD51 and/or DMC1, components of early recombination nodules (ERNs), was also present as abundant foci in Trip13Gt/Gt zygotene spermatocytes (unpublished data; the anti-RAD51 antibody cross-reacts with DMC1), indicating that recombinational repair of DSBs is initiated. The cohesin complex, which is essential for completion and/or maintenance of synaptic associations, appeared to assemble normally as judged by immunolabeling for the meiosis-specific cohesins STAG3 (Figure S2C and S2D) and REC8 (unpublished data). Because yeast PCH2 localizes to telomeres in a Sir3p-dependent manner, we tested for possible telomere defects by immunolabeling for TRF2, a component of a protein complex that plays an essential role in telomere protection [19]. It was localized to telomeres of both fully synapsed and telomerically asynaptic mutant chromosomes (Figure S2E and S2F)...Defects in DSB repair became apparent in pachynema upon probing of mutant spermatocyte nuclei with antibodies against molecules involved in various stages of recombination. In >99 of Trip13Gt/Gt chromosome spreads, BLM helicase (Figure 4C and 4D), RAD51/DMC1 (Figure 4E and 4F), gH2AX (Figure 4G and 4H), and TOPBP1 (Figure 4I and 4J) all persisted abnormally on synapsed chromosomes. For RAD51/DMC1, mutant pachytene spermatocytes contained 138 + 6 foci (compared to 11 + 3 foci in wild type, most of which were on the XY body), down from 218 + 13 in zygonema (compared to 220 + 13 foci in wild type). TOPBP1 is a DNA damage-checkpoint protein involved in ATM protein-dependent activation of ATR protein [20,21]. It binds sites of DSBs and unsynapsed regions of meiotic chromosomes [22,23]. BLM has been reported to colocalize with markers (RPA and MSH4) of recombination at sites distinct from those that become resolved as crossovers (CO) [24]. We therefore assessed the distribution of RPA, the ssDNA binding protein, which is normally present at focal sites of synapsing meiotic chromosomes before disappearing in mid-pachynema [25]. It is thought to bind D-loops of recombination intermediates [26]. RPA also persisted on pachytene mutant chromosomes (Figure 4K and 4L). These data indicate that unrepaired DSBs, or unresolved recombination intermediates, remain in pachynema and activate a DNA damage checkpoint system...It should be noted that chromosomes affected by meiotic sex chromosome inactivation (MSCI) and meiotic silencing of unpaired chromatin (MSUC) are heavily stained by antibodies for several DSB repair-associated molecules, including gH2AX. H2AX phosphorylation due to MSCI and MSUC is conducted by ATR, not ATM [27-29]. Since mutant chromosomes are fully synapsed, and MSUC is known to occur only as a result of asynapsis, the decoration of Trip13Gt/Gt chromosomes with DNA repair markers is probably attributable to incomplete DNA repair rather than transcriptional silencing...Consistent with the presence of rare (<1) Trip13Gt/Gt pachytene spermatocytes devoid of persistent DNA repair markers, and testis histology showing some degree of postmeiotic progression (Figure 3G), we observed both diplotene nuclei that lacked autosomal RAD51/DMC1 and gH2AX (Figure S3A-S3D), and also metaphase I spreads with 20 bivalents (Figure S3E-S3F). Since Trip13Gt may not be a complete null, these diplotene and metaphase I spermatocytes might arise by virtue of having sufficient wild-type TRIP13...CO-Associated Markers Appear Normally in the Absence of TRIP13..The persistence of BLM on Trip13Gt/Gt spermatocyte chromosomes suggests that at least a subset of the unrepaired DSBs correspond to sites of defective NCO recombinational repair. To assess whether CO recombination occurs in the mutant, we examined the distribution of the mismatch repair proteins MLH1 and MLH3, which are normally detectable as foci in mid-late pachynema and mark the locations of chiasmata [30,31]. Remarkably, MLH1/3 foci were formed; we observed 1-2 foci/chromosome as in wild type and at typical overall levels (MLH3 = 23 + 2, N = 10; [30,32]) on mid-late pachytene chromosomes (Figure 4M and 4N; MLH1 not shown). Since <1 of Trip13Gt/Gt pachytene nuclei had normal repair (as judged by absence of persistent DSB repair markers; see above), but most of the pachytene nuclei had MLH1/3 foci, it was unlikely that the MLH1/3 foci formed only on chromosomes with fully repaired DSBs. To test this directly, we conducted double staining for MLH1 and RAD51/DMC1. MLH1 foci were present on chromosomes that also contained numerous RAD51/DMC1 foci (Figure 4O and 4P)...To assess whether these MLH1/3 foci in Trip13Gt/Gt pachytene spermatocytes represent CO events completed to a point where they could maintain interhomolog attachments though the end of prophase I, we treated testicular cells from 17.5-20.5-d-old control (+/+), Trip13Gt/Gt, and Dmc1-/- mice with the protein phosphatase inhibitor okadaic acid (OA), a chemical that induces degradation of the SC, chromosome condensation, and premature progression to metaphase I [33]. Fifteen metaphase spreads were identified for each genotype. Whereas all of the Dmc1-/- spreads had 35 or more condensed chromosomes, all of the +/+ and Trip13Gt/Gt spreads had 20-25, suggesting that the MLH1/3 foci in Trip13Gt/Gt pachytene spermatocytes represent sites of completed, or near-completed, COs. Because the preparations were made from whole testes, it is possible that the univalent-containing metaphases from Dmc1-/- mice were from spermatogonia, not spermatocytes...TRIP13 Deficiency Does Not Alleviate Meiotic Arrest Phenotypes of Mutants Defective in Synapsis..To determine if TRIP13 deficiency prevents apoptosis triggered by asynapsis as in C. elegans, we analyzed mice that were doubly mutant for Spo11 and Trip13. SPO11 is a transesterase that is essential for the creation of genetically programmed DSB during leptonema of many organisms, including mice [18]. In C. elegans, spo-11 mutant gametes have extensive asynapsis, which triggers PCH-2 dependent apoptosis in pachynema [2]. In mice, Spo11-/- spermatocytes are severely defective in homologous chromosome synapsis [34,35], and arrest with chromosomes in a state characteristic of the zygotene/pachytene transition (Figure 3H). Spermatocytes in Trip13Gt/Gt Spo11-/- testes progressed maximally to that point before undergoing death (Figs 3I), well before the spindle checkpoint that eliminates achiasmate spermatocytes [36]. There was no evidence of metaphase I spermatocytes or postmeiotic spermatids in these testes, unlike those seen in Trip13 single mutants (Figure 3G). In contrast to the complete synapsis in Trip13Gt/Gt pachytene spermatocytes (Figure 5A), in which SPO11 is available in leptonema to initiate (via DSB induction, Figure S2A and S2B) a recombination-driven homolog search, chromosome synapsis in doubly mutant spermatocytes was highly disrupted as in Spo11 single mutants (Figure 5B and 5C). Identical studies were performed with mice deficient for Mei1, a vertebrate-specific gene also required for DSB formation and chromosome synapsis [37], with similar results (Figure 3J and 3K; immunocytology not shown)...Figure 5..Immunocytological Analysis of Trip13 Compound Mutants..Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores. Genotypes are indicated, as are those panels in which dual staining patterns are merged. Note that (H) and (I) are at lower magnification to show multiple nuclei...In yeast, deletion of PCH2 alleviates the pachytene arrest caused by asynaptic mutants zip1 and zip2 [8]. Although mouse SYCP1 might be a functional equivalent of Zip1p, because Sycp1 mutant spermatocytes arrest at approximately the same point as Trip13 mutants, there would be no opportunity to observe bypass of Sycp1-/-. Since Zip2p is present at sites of axial associations, even in zip1 mutants, it has been suggested that Zip2p promotes initiation of chromosome synapsis [38]. These observations raise the possibility that in yeast, Pch2p responds to synapsis polymerization rather than initiation. To test this, we performed epistasis analysis with a Rec8 allele (Rec8Mei8, abbreviated as Rec8-). Meiotic chromosomes of Rec8 mutant spermatocytes undergo apparent homolog pairing and interhomolog synaptic initiation, but are defective in DSB repair and fail to maintain interhomolog synapsis [39,40]. Rather, sister chromatids appear to synapse and are bound by SYCP1 along their axes. Rec8 mutants do not progress to diplonema or metaphase I. Double mutant analysis indicated that Rec8 is epistatic to Trip13. As in the Spo11 and Mei1 experiments, histology of testes deficient for both REC8 and TRIP13 resembled the Rec8 mutant, with no evidence of progression to metaphase I that occurs in Trip13Gt/Gt mice (Figure 3L and 3M). Immunocytological analysis of spread chromosomes showed a failure of homologous chromosome synapsis in both the Rec8-/- and Rec8-/- Trip13Gt/Gt spermatocytes, as previously reported for Rec8 mutants (Figure 5D and 5E) [39,40]...Although subsequent reports indicate otherwise [10,12], deletion of PCH2 in yeast was originally reported to alleviate meiotic arrest caused by deficiency for the meiosis-specific RecA homolog DMC1 [8]. To investigate this relationship in mice, we constructed animals doubly mutant for Trip13 and Dmc1. As in Dmc1-/- mice, in which spermatocytes undergo meiotic arrest from defective DSB repair and failed chromosome synapsis [16], spermatogenesis in Dmc1-/- Trip13Gt/Gt testes was uniformly arrested at the point where spermatocytes contained chromatin characteristic of zygonema/pachynema (Figure 3N). Immunocytological analysis indicated that both Dmc1-/- and Dmc1-/- Trip13Gt/Gt chromosomes had extensive asynapsis compared to Trip13Gt single mutants (Figure 5F-5H), and all had persistent RAD51/DMC1 foci and phosphorylated H2AX (gH2AX; Figure 5I-5L), confirming that Dmc1 is epistatic to Trip13. Doubly mutant females had residual ovaries, phenocopying Dmc1-/- and Trip13Gt/Gt single mutants (unpublished data)...Meiotic Defects in Trip13Gt/Gt Oocytes Are DSB-Dependent..Epistasis analysis of females was insightful with respect to the cause of arrest in Trip13 mutants. Both Mei1-/-/Trip13Gt/Gt and Spo11-/-/Trip13Gt/Gt females had ovaries with numerous follicles, identical to Mei1 and Spo11 single mutants (Figure 3O-3R). Thus, Spo11 and Mei1 are epistatic to Trip13 in oogenesis, just as they are to Dmc1 [13,41]. This demonstrates that oocyte loss in Trip13Gt/Gt females is dependent on DSB formation. In conjunction with the immunohistochemical data, these data provide strong evidence that meiotic arrest in Trip13 mutant mice is due to defects in DSB repair. As expected, ovaries of Rec8 Trip13 double mutants were devoid of oocytes as were those from either single mutant (Figure 3B, 3S, and 3T)...Discussion..Genetic experiments in S. cerevisiae provided evidence that the pachytene checkpoint monitors and responds to recombinational DSB repair and synapsis independently. Wu and Burgess concluded that the repair checkpoint is RAD17-SAE2 dependent, while the synapsis checkpoint is PCH2-ZIP1 dependent [12]. Of these four genes, SAE2 and ZIP1 do not have clear mammalian orthologs (although SYCP1 may be a functional ortholog of ZIP1), and mutation of the mouse RAD17 ortholog, Rad1, presumably causes embryonic lethality [42]. Thus, mutational analysis of mouse Pch2 (Trip13), which is also critical for the synapsis checkpoint in C. elegans [2], was the best remaining option to evaluate potential functional conservation in mammalian meiotic checkpoint control...Our results demonstrate that in mice, the primary meiotic function of TRIP13 is in recombination itself. We found no evidence that it is involved in pachytene checkpoint control. Our data suggest that while recombination events destined to be resolved as COs can proceed normally in Trip13 mutants, DSBs that enter the NCO repair pathway are incompletely resolved or processed inefficiently. This hypothesis is compatible with current knowledge of meiotic recombination pathways. In S. cerevisiae, CO and NCO pathways are distinct [43]; they have different recombination intermediates, and are dependent upon different proteins [44,45]. Mice also appear to have independent CO versus NCO recombination pathways [46]. As in yeast, both require SPO11-induced breaks, but only the CO pathway requires MLH1. Both types of recombinant products are formed by mid-late pachynema. Another possibility is that the recombination defects are a result of defective intersister recombination. However, this type of DSB repair is suppressed in meiotic cells. Ablation of RAD54, which mediates intersister recombination in yeast, does not significantly disrupt meiosis in either yeast or mice [47,48]. Interestingly, RAD54-deficient spermatocytes display abnormal persistence of RAD51 foci on pachytene chromosomes, similar to those in TRIP13 mice, but there are no deleterious effects on meiotic progression or fertility [49]...Data from budding yeast also indicate that Pch2p functions in recombination. Deletion of PCH2 delays meiotic progression by 2 h in SK1 yeast, and causes a minor decrease in ascus formation [50]. DSBs persist >2 h longer in pch2D yeast than in wild type, and hyperresection of DSBs in dmc1D pch2D double mutants is lower than in dmc1D cells [10]. Additionally, it was reported that pch2D yeast had a meiosis I delay dependent on the RAD17-SAE2 checkpoint that monitors recombination intermediates [12]. However, the exact role of TRIP13 (or Pch2) in recombination is unclear. Because synapsis occurs in TRIP13-deficient spermatocytes and is dependent on DSB formation (activity of SPO11 and MEI1), we suggest that TRIP13 functions after homology recognition and strand exchange, and that recombination events entering the CO repair pathway are either completed or nearly so (because OA treated resulted in bivalent chromosomes). One possibility for TRIP13's role in recombination is that it is directly involved in a step specific to resolution of NCO recombination intermediates. Another possibility is that TRIP13 is required for disassembly of NCO recombinational repair complexes [51] containing those proteins that persist abnormally on Trip13Gt/Gt pachytene chromosomes. Notably, TRIP13 has two putative ATPase domains, a signature of AAA-ATPase ClpA/B chaperones that perform protein or protein/DNA complex disassembly [52]. These potential recombination roles might not be limited to meiosis, since Trip13 is widely transcribed and the mutant animals exhibited developmental defects. Finally, TRIP13 might play an indirect role, such as providing a "licensing" signal for the resolution of NCO intermediates and completion of meiosis...Regarding the cause of cell death in Trip13 mutants, our data indicate that this is triggered by defective DSB repair rather than asynapsis. We base this conclusion on two observations: (1) oocyte elimination is dependent upon DSB formation and (2) synapsis is normal in spermatocytes of adult testes. Indeed, this mutant is unique in that recombination defects occur in the absence of asynapsis (e.g., as in Dmc1 knockouts). Thus, the Trip13 mutant provides the first evidence that unrepaired DNA damage alone can trigger the mammalian pachytene checkpoint response. Furthermore, our results allow us to conclude that oocytes and spermatocytes share a similar, if not identical, DNA damage pachytene checkpoint that is decoupled from a synapsis checkpoint...Interestingly, we found that OA treatment of Trip13Gt/Gt spermatocytes could propel them into MI, despite a report that the same did not occur when wild-type pachytene spermatocytes were treated with the DSB-inducing agents gamma radiation or etoposide [53]. It is possible that the nascent induction of DSBs in pachynema evokes a checkpoint response that cannot be bypassed by OA, whereas the post-strand invasion lesions in TRIP13-deficient spermatocytes do not...TRIP13 was originally discovered to be an interactor with rat thyroid receptor beta (THRB; [54]), but the relationship between THRB and TRIP13 in meiosis is unknown. Interestingly, we observed that THRB is distributed diffusely throughout wild-type spermatocyte nuclei but is excluded from the XY (sex) body (unpublished observations), a compartmentalized nuclear domain beginning in pachynema, in which the sex chromosomes become heterochromatinized and transcriptionally silenced in the process of MSCI [55]. However, the XY body appeared intact in most mutant spermatocytes upon probing with several markers of XY heterochromatinization (unpublished observations). Considering that THRB knockout mice are viable and fertile [56], the functional relationship between TRIP13 and its receptor THRB in meiosis is unclear...Given the high similarity of PCH2 orthologs throughout the eukaryotic world, one or more essential functions of this protein must be conserved. Since TRIP13 does not exhibit checkpoint function in mice, we surmise that the TRIP13/PCH2 ancestral protein had a function in recombination that persists to the present. Notably, A. thaliana does not appear to have a meiotic checkpoint activity that eliminates mutant meiocytes in a manner analogous to organisms such as mice, budding yeast, and female Drosophila [11,57], and mammalian TRIP13 is more similar to Arabidopsis PCH2 than the fly or worm proteins (Figures 1A and S1). The unusual relatedness between mammalian and plant PCH2 may therefore be attributable to both the presence of a common conserved function (namely recombination, although the role of PCH2 in plants has yet to be determined), and the absence of checkpoint function. Nevertheless, the evolutionary relationships between animals, fungi, and plants (which are discordant with PCH2 sequence phylogeny) do not allow parsimonious models addressing the points in time that checkpoint functions in PCH2 were gained or lost. It is possible that its checkpoint function evolved independently in worms and budding yeast. The picture will become clearer as the function of PCH2 in other organisms is elucidated...The nature of the synapsis checkpoint in male mice remains unidentified. One possible candidate is Dot1 (PCH1 in yeast), a histone methyltransferase silencing factor that is required for pachytene arrest of zip1 and dmc1 mutants in yeast [58], and for preventing RAD54-mediated recombinational DSB repair between sister chromatids. However, DOT1 acts upstream of PCH2. Given that TRIP13 doesn't have checkpoint function in mice, a potential role for mammalian DOT1 in the pachytene checkpoint is dubious but awaits investigation. Recently, it was shown that the TRP53 homolog TRP63 is required for DNA damage-induced death of dictyate-stage primordial oocytes, leading to the suggestion that it is involved in monitoring genome integrity [59]. However, this activity occurs subsequent to a pachytene checkpoint. As alluded to earlier, a complicating problem for studying potential meiotic checkpoint genes in mice is that as in yeast, such genes often have mitotic functions (such as RAD24 [7]), and their ablation can cause lethality [42]. Unless mammalian pachytene checkpoint components have orthologs with similar functions in organisms such as yeast, their identities are likely to remain elusive...Materials and Methods..PCR analysis of Trip13 cDNA...Trip13 was amplified from samples of Clontech's Mouse Multiple Tissue cDNA Panel I (http://www.clontech.com), using the following primers: 5'-GCACCATTGCACTTCACATC-3' (TRP3-6F) and 5'-TGACCATCAGACTGTCGAGC-3' (TRP3-6R). These primers correspond to exons 3 and 6, respectively, and amplify a 330-bp cDNA product. The cDNAs in this panel are equalized to allow quantitative analysis by RT-PCR...Generation of Trip13-deficient mice...The mouse embryonic stem cell line RRB047 (strain 129/Ola) containing a gene trap insertion in Trip13 was obtained from BayGenomics (http://www.baygenomics.ucsf.edu/). The gene-trapping vector used to create this line, pGT1lxf, was designed to create an in-frame fusion between the 5' exons of the trapped gene and a reporter, bgeo (a fusion of b-galactosidase and neomycin phosphotransferase II). The gene-trapped locus creates a fusion transcript containing exons 1-3 of Trip13 and bgeo. To identify the exact insertion site within intron 3, PCR was performed using one primer within the gene trap vector, and the other primer at various positions in intron 3 pointing towards the 3' end of the gene. Product from a productive reaction was sequenced, revealing that the insertion site was 445 bp into intron 3...Genotyping of mice...Three primers were used to distinguish wild-type and mutant alleles of Trip13: primer 1, 5'-CGTCGCTCCATTGCTTTGTGC-3'; primer 2, 5'-AGTAGTGGTACACTGTATTTTTGCTTTCATTGA-3'; and primer 3, 5'-GTAGATCCCGGCGCTCTTACCAA-3'. Primers 1 and 2 are located upstream and downstream, respectively, of the gene trap insertion within the intron 3. Primer 3 corresponds to pGTlxf sequence. Primers 1 and 2 amplify a 700-bp band from a wild-type allele; primers 1 and 3 amplify a 540-bp fragment from a mutant allele. Separate reactions were used to assay the presence or absence of each amplicon from a DNA sample. The cycling conditions were: 94 oC 2 min; 35 cycles of 94 oC 30 s, 57 oC 45 s, and 72oC 50 s; and 72 oC 2 min...RT-PCR...Total RNA was isolated from adult testes with the RNeasy Mini Kit (Qiagen, http://www.qiagen.com), and 4.0 ug was oligo dT-primed and reverse-transcribed with Superscript II (Stratagene, http://www.stratagene.com). The entire Trip13 protein-coding sequence was amplified with primers 5'-ATGGACGAGGCGGTG-3' and 5'-TCAAACATAAGCTGAAAGTT-3'. The cycling conditions were: 94 oC 2 min; 94 oC 30s, 55 oC 45 s, and 72 oC 80 s for 35 cycles; and 72 oC 2 min. The primers for amplifying the Med31 coding sequence as control were : 5'-ATGGCCGCGGCCGTCGCTATGG-3' and 5'-TCATTTCCCTGCTGTGTTATTCTGCTGCTGCTGC-3'. The cycling conditions were: 94 oC 2 min; 94 oC 30 s, 55 oC 30 s, and 72 oC 35 s for 35 cycles; and 72 oC 2 min...Development and purification of chicken antibodies...A peptide corresponding to amino acids 25-40 of TRIP13, VLQRSGSTAKKEDIK, was conjugated to KLH and used to immunize chickens (done by Sigma Genosys, http://www.sigmaaldrich.com). Polyclonal IgY was isolated from eggs with the Eggcellent Chicken IgY Purification kit (Pierce, http://www.piercenet.com). IgY antibodies were then affinity purified using the immunizing synthetic peptide...Western blotting...50 ug of testis extract in RIPA buffer was separated by 8 SDS-PAGE and electrotransferred onto a Pure Nitrocellulose membrane (Bio-Rad, http://www.biorad.com). The membrane was incubated with a polyclonal rabbit anti-human TRIP13 antibody (18-003-42687; Genway, http://www.genwaybio.com). According to the manufacturer, the immunogen was a synthetic peptide embedded in sequence we deduced to correspond to exon 3. Binding was detected by chemiluminescence ECL kit (Pierce) using a rabbit anti-chicken IgG horseradish peroxidase conjugate (Pierce)...Histological analyses...Testes or ovaries were fixed in Bouin's, embedded in paraffin, sectioned at 6 um, and stained by hematoxylin and eosin. Antigen retrieval for immunohistochemistry of testis sections was as described [60]. Oocyte and follicle numbers were counted as described [61]. Only follicles containing an oocyte with a clearly visible nucleus were scored...Immunocytochemistry...Immunolabeling of surface-spread spermatocytes and oocytes was performed as described [39,62]. To reach conclusions on the pattern of staining for various proteins, 30 (unless otherwise indicated) well-spread nuclei of particular meiotic stages were first identified under the fluorescent microscope on the basis of SYCP3 or STAG3 staining, then imaged at both appropriate wavelengths to determine the pattern of second proteins with focal patterns such as RAD51 or RPA. Unless otherwise indicated, the panels shown in the figures were the exclusive or predominant patterns seen. The exception for this approach was in the case of staining for MLH1 or MLH3 plus RAD51 (in which case SYCP3 or STAG3 was not available to find chromosome cores). Nuclei in this situation were identified first by MLH1/3 foci clustering, then imaged for both fluorescent wavelengths...Primary antibodies used in this study were as follows: mouse anti-SCP3 (1:500; Abcam, http://www.abcam.com); rabbit anti-SYCP1 (1:1,000; a gift from C. Heyting) [63]; rabbit anti-REC8 (1:100; a gift from C. Heyting); rabbit anti-RAD51 (1:250, this polyclonal antibody recognizes both RAD51 and DMC1; Oncogene Research Products, http://www.merckbiosciences.co.uk); rabbit anti-gH2AX (1:500; Upstate Biotechnology, http://www.upstate.com/); rabbit anti-STAG3 (1:1,000; a gift from R. Jessberger); rabbit anti-MLH3 (1:400; a gift from P. Cohen); mouse-anti-human MLH1 (1:50; BD Biosciences, http://www.bdbiosciences.com); rabbit-anti-TopBP1 (1:100; a gift from J. Chen) [22]; mouse-anti-ubiquityl-histone H2A (1:200; Upstate Biotechnology); rabbit-anti-TRF2 (1:500; a gift from T. de Lange); and rabbit-anti-BLM (1:50; a gift from R. Freire). All secondary antibodies conjugated with either Alexa Fluor 488 or 594 (Molecular Probes, http://probes.invitrogen.com/) were used at a dilution of 1:1,000. All images were taken with a 100x objective lens under immersion oil...Metaphase I spermatocyte spreads and OA treatment...Metaphase fixed spermatocytes from 8-mo-old Trip13RRB047 homozygotes, using 23-d-old wild-type mice as control, were prepared and stained with Giemsa as described [64]...For OA treatment, cells were exposed to 5 uM OA (Calbiochem, http://www.emdbiosciences.com) for 6 h at 32 oC in a humidified environment of 5 CO2 before spreading [65]. These preparations were stained with DAPI to visualize metaphase nuclei and chromosomes...Phylogenetic analyses...TRIP13 orthologs were identified by BLASTP searches of Genbank and other sources providing gene models such as Ensembl. The selected orthologs can be found in Table S1. Amino acid alignments were done with Clustal W, using the default settings with and without removing the regions outside of the AAA-ATPase central domain. The trees were constructed by using the neighbor-joining method with Poisson correction. The reliability of internal branches was assessed by using 500 bootstrap replicates, and sites with gaps were ignored in this analysis. Neighbor-joining searches were conducted by using the computer program MEGA3 [66]...Supporting Information..Figure S1..Depiction of Conserved Regions of Mouse TRIP13 and Its PCH2 Orthologs..(75 KB PDF)..Click here for additional data file...Figure S2..Surface-Spread Chromosomes Immunolabeled with the Indicated Antibodies and Fluorophores..(947 KB PDF)..Click here for additional data file...Figure S3..Trip13 Mutant Spermatocytes That Progress Beyond Pachynema Have Repaired DSBs and Form Bivalents at Metaphase I..(1.5 MB PDF)..Click here for additional data file...Table S1..Sources of TRIP13 Amino Acid Sequences Used to Construct the Phylogenetic Tree in Figure 1..(22 KB PDF)..Click here for additional data file...Acknowledgements..We thank P. Burgoyne, P. Cohen, E. Alani, and P. Moens for helpful discussions, R. Viswanatha for helpful comments on the manuscript, W. Pawlowski and T. Pawlowska for input on the evolutionary tree of PCH2, R. Freire and J. Chen for antibodies, M. Jasin for Spo11- embryonic stem cells, and R. Munroe for generating chimeric mice. We also thank an anonymous reviewer for pointing out that Pch2p might be sensing synaptic polymerization in yeast, not initiation...Abbreviations..CO - crossover..DSB - double strand break..MSCI - meiotic sex chromosome inactivation..MSUC - meiotic silencing of unpaired chromatin..NCO - noncrossover..OA - okadaic acid..RT-PCR - reverse-transcriptase PCR..SC - synaptonemal complex..Footnotes..A previous version of this article appeared as an Early Online Release on June 21, 2007 (doi:10.1371/journal.pgen.0030130.eor)...Author contributions. XL and JCS conceived and designed the experiments and analyzed the data. XL performed the experiments. JCS wrote the paper...Funding. This work was supported by NIH grant GM45415 to JS...Competing interests. The authors have declared that no competing interests exist.
+124631	0	5	Mouse	Species	None
+124631	6	28	Pachytene Checkpoint 2	Gene	None
+124631	30	36	Trip13	Gene	None
+124631	118	127	mammalian	Species	None
+124631	210	220	eukaryotes	Species	None
+124631	222	231	mammalian	Species	None
+124631	324	329	mouse	Species	None
+124631	340	346	Trip13	Gene	None
+124631	351	373	pachytene checkpoint 2	Gene	None
+124631	375	379	PCH2	Gene	None
+124631	435	459	Saccharomyces cerevisiae	Species	None
+124631	464	486	Caenorhabditis elegans	Species	None
+124631	541	547	TRIP13	Gene	None
+124631	558	562	mice	Species	None
+124631	761	766	RAD51	Gene	None
+124631	768	771	BLM	Gene	None
+124631	837	841	MLH1	Gene	None
+124631	846	850	MLH3	Gene	None
+124631	856	868	okadaic acid	Chemical	None
+124631	1042	1047	Spo11	Gene	None
+124631	1049	1053	Mei1	Gene	None
+124631	1055	1059	Rec8	Gene	None
+124631	1065	1069	Dmc1	Gene	None
+124631	1091	1097	Trip13	Gene	None
+124631	1115	1121	TRIP13	Gene	None
+124631	1167	1171	mice	Species	None
+124631	1196	1202	TRIP13	Gene	None
+124631	1430	1439	mammalian	Species	None
+124631	1563	1567	mice	Species	None
+124631	1704	1714	individual	Species	None
+124631	2075	2084	organisms	Species	None
+124631	2329	2334	mouse	Species	None
+124631	2335	2341	Trip13	Gene	None
+124631	2366	2375	organisms	Species	None
+124631	2493	2499	Trip13	Gene	None
+124631	2615	2624	molecules	Chemical	None
+124631	2684	2691	sterile	Disease	None
+124631	3036	3049	birth defects	Disease	None
+124631	3394	3407	budding yeast	Species	None
+124631	3412	3419	mammals	Species	None
+124631	4031	4040	organisms	Species	None
+124631	4052	4065	S. cerevisiae	Species	None
+124631	4067	4090	Drosophila melanogaster	Species	None
+124631	4092	4102	C. elegans	Species	None
+124631	4108	4112	mice	Species	None
+124631	4376	4389	S. cerevisiae	Species	None
+124631	4601	4621	Arabidopsis thaliana	Species	None
+124631	4709	4719	Drosophila	Species	None
+124631	4815	4828	S. cerevisiae	Species	None
+124631	4833	4843	C. elegans	Species	None
+124631	4899	4903	mice	Species	None
+124631	4989	4993	Dmc1	Gene	None
+124631	4995	4999	Msh5	Gene	None
+124631	5005	5008	Atm	Gene	None
+124631	5217	5221	mice	Species	None
+124631	5264	5268	Dmc1	Gene	None
+124631	5583	5590	mammals	Species	None
+124631	5650	5654	PCH2	Gene	None
+124631	5735	5748	S. cerevisiae	Species	None
+124631	5819	5823	zip1	Gene	None
+124631	5975	5979	PCH2	Gene	None
+124631	6005	6014	organisms	Species	None
+124631	6105	6109	Pch2	Gene	None
+124631	6198	6204	humans	Species	None
+124631	6230	6234	mice	Species	None
+124631	6253	6259	Trip13	Gene	None
+124631	6277	6281	PCH2	Gene	None
+124631	6526	6532	Trip13	Gene	None
+124631	6555	6564	Mammalian	Species	None
+124631	6577	6581	PCH2	Gene	None
+124631	6627	6636	mammalian	Species	None
+124631	6649	6653	PCH2	Gene	None
+124631	6655	6661	Trip13	Gene	None
+124631	6663	6710	thyroid hormone receptor interacting protein 13	Gene	None
+124631	6663	6678	thyroid hormone	Chemical	None
+124631	6878	6884	TRIP13	Gene	None
+124631	6906	6915	mammalian	Species	None
+124631	7022	7027	flies	Species	None
+124631	7126	7132	Trip13	Gene	None
+124631	7245	7250	mouse	Species	None
+124631	7255	7260	human	Species	None
+124631	7362	7367	human	Species	None
+124631	7372	7377	mouse	Species	None
+124631	7407	7412	Mouse	Species	None
+124631	7413	7417	PCH2	Gene	None
+124631	7427	7433	TRIP13	Gene	None
+124631	7508	7512	PCH2	Gene	None
+124631	7513	7519	TRIP13	Gene	None
+124631	7867	7877	eukaryotic	Species	None
+124631	7914	7927	deuterostomia	Species	None
+124631	7954	7965	protostomia	Species	None
+124631	7981	7986	fungi	Species	None
+124631	8250	8256	TRIP13	Gene	None
+124631	8400	8406	Trip13	Gene	None
+124631	8426	8431	Med31	Gene	None
+124631	8453	8459	Trip13	Gene	None
+124631	8593	8599	TRIP13	Gene	None
+124631	8652	8659	tubulin	Gene	None
+124631	8701	8707	TRIP13	Gene	None
+124631	8748	8754	TRIP13	Gene	None
+124631	8835	8842	chicken	Species	None
+124631	8848	8854	TRIP13	Gene	None
+124631	8894	8901	chicken	Species	None
+124631	9351	9357	TRIP13	Gene	None
+124631	9446	9451	SYCP3	Gene	None
+124631	9453	9454	S	Gene	None
+124631	9460	9466	TRIP13	Gene	None
+124631	9468	9469	T	Gene	None
+124631	9646	9652	Trip13	Gene	None
+124631	9660	9664	Mice	Species	None
+124631	9693	9699	TRIP13	Gene	None
+124631	9703	9710	mammals	Species	None
+124631	9725	9729	mice	Species	None
+124631	9765	9771	Trip13	Gene	None
+124631	9805	9811	Trip13	Gene	None
+124631	9958	9964	Trip13	Gene	None
+124631	9973	9979	Trip13	Gene	None
+124631	9992	9998	Trip13	Gene	None
+124631	10027	10031	mice	Species	None
+124631	10153	10159	Trip13	Gene	None
+124631	10389	10395	Trip13	Gene	None
+124631	10403	10407	Mice	Species	None
+124631	10628	10633	mouse	Species	None
+124631	10677	10683	Trip13	Gene	None
+124631	10798	10804	Trip13	Gene	None
+124631	11176	11182	Trip13	Gene	None
+124631	11786	11792	TRIP13	Gene	None
+124631	11816	11822	Trip13	Gene	None
+124631	11894	11900	Trip13	Gene	None
+124631	11982	11988	TRIP13	Gene	None
+124631	12128	12134	TRIP13	Gene	None
+124631	12154	12161	chicken	Species	None
+124631	12456	12462	TRIP13	Gene	None
+124631	12622	12628	TRIP13	Gene	None
+124631	12853	12858	SYCP3	Gene	None
+124631	12897	12903	TRIP13	Gene	None
+124631	12960	12971	Infertility	Disease	None
+124631	13001	13007	TRIP13	Gene	None
+124631	13115	13122	sterile	Disease	None
+124631	13141	13147	Trip13	Gene	None
+124631	13621	13627	Trip13	Gene	None
+124631	13804	13815	hematoxylin	Chemical	None
+124631	13944	13950	Trip13	Gene	None
+124631	14024	14030	Trip13	Gene	None
+124631	14115	14121	Trip13	Gene	None
+124631	14255	14261	Trip13	Gene	None
+124631	14310	14316	Trip13	Gene	None
+124631	14386	14391	Spo11	Gene	None
+124631	14611	14616	Spo11	Gene	None
+124631	14620	14626	Trip13	Gene	None
+124631	14744	14748	Mei1	Gene	None
+124631	14752	14758	Trip13	Gene	None
+124631	14833	14837	Mei1	Gene	None
+124631	14841	14847	Trip13	Gene	None
+124631	14866	14870	Rec8	Gene	None
+124631	14875	14879	Rec8	Gene	None
+124631	14884	14890	Trip13	Gene	None
+124631	14907	14911	Rec8	Gene	None
+124631	15005	15009	Rec8	Gene	None
+124631	15014	15018	Rec8	Gene	None
+124631	15023	15029	Trip13	Gene	None
+124631	15048	15052	Dmc1	Gene	None
+124631	15056	15062	Trip13	Gene	None
+124631	15081	15086	Spo11	Gene	None
+124631	15090	15096	Trip13	Gene	None
+124631	15179	15184	Spo11	Gene	None
+124631	15188	15194	Trip13	Gene	None
+124631	15221	15225	Mei1	Gene	None
+124631	15229	15235	Trip13	Gene	None
+124631	15318	15322	Mei1	Gene	None
+124631	15326	15332	Trip13	Gene	None
+124631	15359	15363	Rec8	Gene	None
+124631	15368	15372	Rec8	Gene	None
+124631	15377	15383	Trip13	Gene	None
+124631	15466	15470	Rec8	Gene	None
+124631	15475	15479	Rec8	Gene	None
+124631	15484	15490	Trip13	Gene	None
+124631	16190	16200	C. elegans	Species	None
+124631	16223	16227	Pch2	Gene	None
+124631	16288	16294	TRIP13	Gene	None
+124631	16468	16474	Trip13	Gene	None
+124631	16535	16540	SYCP3	Gene	None
+124631	16545	16550	SYCP1	Gene	None
+124631	16830	16835	SYCP1	Gene	None
+124631	16840	16845	SYCP3	Gene	None
+124631	17366	17372	Trip13	Gene	None
+124631	17794	17806	fluorophores	Chemical	None
+124631	17900	17906	Trip13	Gene	None
+124631	17915	17921	Trip13	Gene	None
+124631	18071	18076	SYCP1	Gene	None
+124631	18077	18082	SYCP3	Gene	None
+124631	18343	18346	BLM	Gene	None
+124631	18417	18422	RAD51	Gene	None
+124631	18587	18592	RAD51	Gene	None
+124631	18652	18656	H2AX	Gene	None
+124631	18815	18819	H2AX	Gene	None
+124631	18902	18908	TOPBP1	Gene	None
+124631	19220	19224	MLH3	Gene	None
+124631	19279	19284	RAD51	Gene	None
+124631	19349	19354	RAD51	Gene	None
+124631	19433	19437	MLH1	Gene	None
+124631	19700	19706	Trip13	Gene	None
+124631	19888	19893	RAD51	Gene	None
+124631	19901	19905	DMC1	Gene	None
+124631	19994	20000	Trip13	Gene	None
+124631	20057	20062	RAD51	Gene	None
+124631	20090	20094	DMC1	Gene	None
+124631	20350	20355	STAG3	Gene	None
+124631	20381	20385	REC8	Gene	None
+124631	20420	20424	PCH2	Gene	None
+124631	20539	20543	TRF2	Gene	None
+124631	20877	20886	molecules	Chemical	None
+124631	20942	20948	Trip13	Gene	None
+124631	20974	20977	BLM	Gene	None
+124631	21007	21012	RAD51	Gene	None
+124631	21013	21017	DMC1	Gene	None
+124631	21068	21074	TOPBP1	Gene	None
+124631	21148	21153	RAD51	Gene	None
+124631	21154	21158	DMC1	Gene	None
+124631	21362	21368	TOPBP1	Gene	None
+124631	21416	21419	ATM	Gene	None
+124631	21452	21455	ATR	Gene	None
+124631	21551	21554	BLM	Gene	None
+124631	21609	21613	MSH4	Gene	None
+124631	22397	22406	molecules	Chemical	None
+124631	22425	22429	H2AX	Gene	None
+124631	22483	22486	ATR	Gene	None
+124631	22492	22495	ATM	Gene	None
+124631	22626	22632	Trip13	Gene	None
+124631	22806	22812	Trip13	Gene	None
+124631	23020	23025	RAD51	Gene	None
+124631	23026	23030	DMC1	Gene	None
+124631	23130	23136	Trip13	Gene	None
+124631	23266	23272	TRIP13	Gene	None
+124631	23331	23337	TRIP13	Gene	None
+124631	23358	23361	BLM	Gene	None
+124631	23365	23371	Trip13	Gene	None
+124631	23636	23640	MLH1	Gene	None
+124631	23645	23649	MLH3	Gene	None
+124631	23768	23772	MLH1	Gene	None
+124631	23872	23876	MLH3	Gene	None
+124631	23957	23961	MLH1	Gene	None
+124631	23986	23992	Trip13	Gene	None
+124631	24138	24142	MLH1	Gene	None
+124631	24176	24180	MLH1	Gene	None
+124631	24297	24301	MLH1	Gene	None
+124631	24306	24311	RAD51	Gene	None
+124631	24312	24316	DMC1	Gene	None
+124631	24318	24322	MLH1	Gene	None
+124631	24385	24390	RAD51	Gene	None
+124631	24391	24395	DMC1	Gene	None
+124631	24446	24450	MLH1	Gene	None
+124631	24461	24467	Trip13	Gene	None
+124631	24683	24689	Trip13	Gene	None
+124631	24700	24704	Dmc1	Gene	None
+124631	24708	24712	mice	Species	None
+124631	24742	24751	inhibitor	Chemical	None
+124631	24752	24764	okadaic acid	Chemical	None
+124631	24766	24768	OA	Chemical	None
+124631	24970	24974	Dmc1	Gene	None
+124631	25043	25049	Trip13	Gene	None
+124631	25094	25098	MLH1	Gene	None
+124631	25109	25115	Trip13	Gene	None
+124631	25314	25318	Dmc1	Gene	None
+124631	25322	25326	mice	Species	None
+124631	25372	25378	TRIP13	Gene	None
+124631	25485	25491	TRIP13	Gene	None
+124631	25551	25561	C. elegans	Species	None
+124631	25575	25579	mice	Species	None
+124631	25608	25613	Spo11	Gene	None
+124631	25618	25624	Trip13	Gene	None
+124631	25626	25631	SPO11	Gene	None
+124631	25741	25750	organisms	Species	None
+124631	25762	25766	mice	Species	None
+124631	25776	25786	C. elegans	Species	None
+124631	25788	25794	spo-11	Gene	None
+124631	25851	25856	PCH-2	Gene	None
+124631	25898	25902	mice	Species	None
+124631	25904	25909	Spo11	Gene	None
+124631	26114	26120	Trip13	Gene	None
+124631	26126	26131	Spo11	Gene	None
+124631	26409	26415	Trip13	Gene	None
+124631	26484	26490	Trip13	Gene	None
+124631	26542	26547	SPO11	Gene	None
+124631	26743	26748	Spo11	Gene	None
+124631	26822	26826	mice	Species	None
+124631	26841	26845	Mei1	Gene	None
+124631	26849	26859	vertebrate	Species	None
+124631	27044	27050	Trip13	Gene	None
+124631	27149	27161	fluorophores	Chemical	None
+124631	27349	27353	PCH2	Gene	None
+124631	27423	27427	zip2	Gene	None
+124631	27442	27447	mouse	Species	None
+124631	27448	27453	SYCP1	Gene	None
+124631	27505	27510	Sycp1	Gene	None
+124631	27574	27580	Trip13	Gene	None
+124631	27641	27646	Sycp1	Gene	None
+124631	27714	27718	zip1	Gene	None
+124631	27985	27989	Rec8	Gene	None
+124631	27998	28002	Rec8	Gene	None
+124631	28023	28027	Rec8	Gene	None
+124631	28054	28058	Rec8	Gene	None
+124631	28296	28301	SYCP1	Gene	None
+124631	28320	28324	Rec8	Gene	None
+124631	28416	28420	Rec8	Gene	None
+124631	28437	28443	Trip13	Gene	None
+124631	28455	28460	Spo11	Gene	None
+124631	28465	28469	Mei1	Gene	None
+124631	28522	28526	REC8	Gene	None
+124631	28531	28537	TRIP13	Gene	None
+124631	28552	28556	Rec8	Gene	None
+124631	28627	28633	Trip13	Gene	None
+124631	28639	28643	mice	Species	None
+124631	28776	28780	Rec8	Gene	None
+124631	28788	28792	Rec8	Gene	None
+124631	28796	28802	Trip13	Gene	None
+124631	28850	28854	Rec8	Gene	None
+124631	28960	28964	PCH2	Gene	None
+124631	29072	29076	RecA	Gene	None
+124631	29085	29089	DMC1	Gene	None
+124631	29131	29135	mice	Species	None
+124631	29178	29184	Trip13	Gene	None
+124631	29189	29193	Dmc1	Gene	None
+124631	29201	29205	Dmc1	Gene	None
+124631	29209	29213	mice	Species	None
+124631	29343	29347	Dmc1	Gene	None
+124631	29351	29357	Trip13	Gene	None
+124631	29543	29547	Dmc1	Gene	None
+124631	29555	29559	Dmc1	Gene	None
+124631	29563	29569	Trip13	Gene	None
+124631	29623	29629	Trip13	Gene	None
+124631	29686	29691	RAD51	Gene	None
+124631	29692	29696	DMC1	Gene	None
+124631	29728	29732	H2AX	Gene	None
+124631	29765	29769	Dmc1	Gene	None
+124631	29786	29792	Trip13	Gene	None
+124631	29851	29855	Dmc1	Gene	None
+124631	29863	29869	Trip13	Gene	None
+124631	29930	29936	Trip13	Gene	None
+124631	30053	30059	Trip13	Gene	None
+124631	30074	30078	Mei1	Gene	None
+124631	30082	30088	Trip13	Gene	None
+124631	30098	30103	Spo11	Gene	None
+124631	30107	30113	Trip13	Gene	None
+124631	30177	30181	Mei1	Gene	None
+124631	30186	30191	Spo11	Gene	None
+124631	30229	30234	Spo11	Gene	None
+124631	30239	30243	Mei1	Gene	None
+124631	30261	30267	Trip13	Gene	None
+124631	30302	30306	Dmc1	Gene	None
+124631	30354	30360	Trip13	Gene	None
+124631	30513	30519	Trip13	Gene	None
+124631	30527	30531	mice	Species	None
+124631	30589	30593	Rec8	Gene	None
+124631	30594	30600	Trip13	Gene	None
+124631	30740	30753	S. cerevisiae	Species	None
+124631	30937	30942	RAD17	Gene	None
+124631	30943	30947	SAE2	Gene	None
+124631	30992	30996	PCH2	Gene	None
+124631	30997	31001	ZIP1	Gene	None
+124631	31039	31043	SAE2	Gene	None
+124631	31048	31052	ZIP1	Gene	None
+124631	31071	31080	mammalian	Species	None
+124631	31101	31106	SYCP1	Gene	None
+124631	31139	31143	ZIP1	Gene	None
+124631	31166	31171	mouse	Species	None
+124631	31172	31177	RAD17	Gene	None
+124631	31188	31192	Rad1	Gene	None
+124631	31267	31272	mouse	Species	None
+124631	31273	31277	Pch2	Gene	None
+124631	31279	31285	Trip13	Gene	None
+124631	31342	31352	C. elegans	Species	None
+124631	31437	31446	mammalian	Species	None
+124631	31508	31512	mice	Species	None
+124631	31546	31552	TRIP13	Gene	None
+124631	31759	31765	Trip13	Gene	None
+124631	31959	31972	S. cerevisiae	Species	None
+124631	32113	32117	Mice	Species	None
+124631	32219	32224	SPO11	Gene	None
+124631	32274	32278	MLH1	Gene	None
+124631	32533	32538	RAD54	Gene	None
+124631	32649	32653	mice	Species	None
+124631	32678	32683	RAD54	Gene	None
+124631	32740	32745	RAD51	Gene	None
+124631	32797	32803	TRIP13	Gene	None
+124631	32804	32808	mice	Species	None
+124631	32900	32913	budding yeast	Species	None
+124631	32979	32983	PCH2	Gene	None
+124631	33322	33327	RAD17	Gene	None
+124631	33328	33332	SAE2	Gene	None
+124631	33419	33425	TRIP13	Gene	None
+124631	33430	33434	Pch2	Gene	None
+124631	33492	33498	TRIP13	Gene	None
+124631	33570	33575	SPO11	Gene	None
+124631	33580	33584	MEI1	Gene	None
+124631	33603	33609	TRIP13	Gene	None
+124631	33772	33774	OA	Chemical	None
+124631	33838	33844	TRIP13	Gene	None
+124631	33998	34004	TRIP13	Gene	None
+124631	34131	34137	Trip13	Gene	None
+124631	34175	34181	TRIP13	Gene	None
+124631	34241	34245	ClpA	Gene	None
+124631	34396	34402	Trip13	Gene	None
+124631	34490	34496	TRIP13	Gene	None
+124631	34670	34676	Trip13	Gene	None
+124631	35042	35046	Dmc1	Gene	None
+124631	35069	35075	Trip13	Gene	None
+124631	35160	35169	mammalian	Species	None
+124631	35421	35423	OA	Chemical	None
+124631	35437	35443	Trip13	Gene	None
+124631	35635	35644	etoposide	Chemical	None
+124631	35770	35772	OA	Chemical	None
+124631	35818	35824	TRIP13	Gene	None
+124631	35858	35864	TRIP13	Gene	None
+124631	35916	35919	rat	Species	None
+124631	35920	35941	thyroid receptor beta	Gene	None
+124631	35943	35947	THRB	Gene	None
+124631	35985	35989	THRB	Gene	None
+124631	35994	36000	TRIP13	Gene	None
+124631	36056	36060	THRB	Gene	None
+124631	36543	36547	THRB	Gene	None
+124631	36557	36561	mice	Species	None
+124631	36627	36633	TRIP13	Gene	None
+124631	36651	36655	THRB	Gene	None
+124631	36709	36713	PCH2	Gene	None
+124631	36739	36749	eukaryotic	Species	None
+124631	36830	36836	TRIP13	Gene	None
+124631	36877	36881	mice	Species	None
+124631	36903	36909	TRIP13	Gene	None
+124631	36910	36914	PCH2	Gene	None
+124631	37004	37015	A. thaliana	Species	None
+124631	37128	37137	organisms	Species	None
+124631	37146	37150	mice	Species	None
+124631	37152	37165	budding yeast	Species	None
+124631	37178	37188	Drosophila	Species	None
+124631	37202	37211	mammalian	Species	None
+124631	37212	37218	TRIP13	Gene	None
+124631	37238	37249	Arabidopsis	Species	None
+124631	37250	37254	PCH2	Gene	None
+124631	37264	37267	fly	Species	None
+124631	37338	37347	mammalian	Species	None
+124631	37358	37362	PCH2	Gene	None
+124631	37489	37493	PCH2	Gene	None
+124631	37633	37638	fungi	Species	None
+124631	37678	37682	PCH2	Gene	None
+124631	37795	37799	PCH2	Gene	None
+124631	37900	37913	budding yeast	Species	None
+124631	37966	37970	PCH2	Gene	None
+124631	37980	37989	organisms	Species	None
+124631	38052	38056	mice	Species	None
+124631	38105	38109	Dot1	Gene	None
+124631	38111	38115	PCH1	Gene	None
+124631	38129	38136	histone	Gene	None
+124631	38213	38217	zip1	Gene	None
+124631	38222	38226	dmc1	Gene	None
+124631	38269	38274	RAD54	Gene	None
+124631	38347	38351	DOT1	Gene	None
+124631	38369	38373	PCH2	Gene	None
+124631	38386	38392	TRIP13	Gene	None
+124631	38429	38433	mice	Species	None
+124631	38456	38465	mammalian	Species	None
+124631	38466	38470	DOT1	Gene	None
+124631	38568	38573	TRP53	Gene	None
+124631	38582	38587	TRP63	Gene	None
+124631	38915	38919	mice	Species	None
+124631	38990	38995	RAD24	Gene	None
+124631	39054	39063	mammalian	Species	None
+124631	39137	39146	organisms	Species	None
+124631	39249	39255	Trip13	Gene	None
+124631	39263	39269	Trip13	Gene	None
+124631	39311	39316	Mouse	Species	None
+124631	39668	39674	Trip13	Gene	None
+124631	39685	39689	mice	Species	None
+124631	39696	39701	mouse	Species	None
+124631	39787	39793	Trip13	Gene	None
+124631	40057	40065	neomycin	Chemical	None
+124631	40165	40171	Trip13	Gene	None
+124631	40520	40524	mice	Species	None
+124631	40598	40604	Trip13	Gene	None
+124631	41469	41475	Trip13	Gene	None
+124631	41724	41729	Med31	Gene	None
+124631	41985	41992	chicken	Species	None
+124631	42054	42060	TRIP13	Gene	None
+124631	42122	42130	chickens	Species	None
+124631	42243	42250	Chicken	Species	None
+124631	42469	42472	SDS	Chemical	None
+124631	42513	42527	Nitrocellulose	Chemical	None
+124631	42616	42622	rabbit	Species	None
+124631	42628	42633	human	Species	None
+124631	42634	42640	TRIP13	Gene	None
+124631	42735	42744	immunogen	Chemical	None
+124631	42893	42899	rabbit	Species	None
+124631	42905	42912	chicken	Species	None
+124631	42917	42928	horseradish	Species	None
+124631	42940	42949	conjugate	Chemical	None
+124631	43082	43093	hematoxylin	Chemical	None
+124631	43105	43112	Antigen	Chemical	None
+124631	43669	43674	SYCP3	Gene	None
+124631	43678	43683	STAG3	Gene	None
+124631	43810	43815	RAD51	Gene	None
+124631	43997	44001	MLH1	Gene	None
+124631	44005	44009	MLH3	Gene	None
+124631	44015	44020	RAD51	Gene	None
+124631	44036	44041	SYCP3	Gene	None
+124631	44045	44050	STAG3	Gene	None
+124631	44146	44150	MLH1	Gene	None
+124631	44272	44277	mouse	Species	None
+124631	44283	44287	SCP3	Gene	None
+124631	44326	44332	rabbit	Species	None
+124631	44338	44343	SYCP1	Gene	None
+124631	44384	44390	rabbit	Species	None
+124631	44396	44400	REC8	Gene	None
+124631	44434	44440	rabbit	Species	None
+124631	44446	44451	RAD51	Gene	None
+124631	44501	44506	RAD51	Gene	None
+124631	44511	44515	DMC1	Gene	None
+124631	44581	44587	rabbit	Species	None
+124631	44656	44662	rabbit	Species	None
+124631	44668	44673	STAG3	Gene	None
+124631	44712	44718	rabbit	Species	None
+124631	44724	44728	MLH3	Gene	None
+124631	44760	44765	mouse	Species	None
+124631	44771	44776	human	Species	None
+124631	44777	44781	MLH1	Gene	None
+124631	44836	44842	rabbit	Species	None
+124631	44848	44854	TopBP1	Gene	None
+124631	44890	44895	mouse	Species	None
+124631	44911	44922	histone H2A	Gene	None
+124631	44911	44918	histone	Chemical	None
+124631	44955	44961	rabbit	Species	None
+124631	44967	44971	TRF2	Gene	None
+124631	45010	45016	rabbit	Species	None
+124631	45022	45025	BLM	Gene	None
+124631	45105	45120	Alexa Fluor 488	Chemical	None
+124631	45105	45116	Alexa Fluor	Chemical	None
+124631	45322	45324	OA	Chemical	None
+124631	45381	45387	Trip13	Gene	None
+124631	45432	45436	mice	Species	None
+124631	45511	45513	OA	Chemical	None
+124631	45552	45554	OA	Chemical	None
+124631	45649	45652	CO2	Chemical	None
+124631	45713	45717	DAPI	Chemical	None
+124631	45790	45796	TRIP13	Gene	None
+124631	46492	46497	Mouse	Species	None
+124631	46498	46504	TRIP13	Gene	None
+124631	46513	46517	PCH2	Gene	None
+124631	46666	46678	Fluorophores	Chemical	None
+124631	46743	46749	Trip13	Gene	None
+124631	46929	46935	TRIP13	Gene	None
+124631	47281	47285	PCH2	Gene	None
+124631	47338	47343	Spo11	Gene	None
+124631	47405	47409	mice	Species	None
+124631	47713	47715	OA	Chemical	None
+124631	47718	47730	okadaic acid	Chemical	None
 
-40643|PMC:5278616|t|.
-40643|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
+130381|PMID:9837820|t|.
+130381|a|A common and recurrent 13-bp deletion in the autoimmune regulator gene in British kindreds with autoimmune polyendocrinopathy type 1. Autoimmune polyendocrinopathy type 1 (APS1) is an autosomal recessive disorder characterized by autoimmune hypoparathyroidism, autoimmune adrenocortical failure, and mucocutaneous candidiasis. Recently, an autoimmune regulator gene (AIRE-1), which is located on chromosome 21q22.3, has been identified, and mutations in European kindreds with APS1 have been described. We used SSCP analysis and direct DNA sequencing to screen the entire 1,635-bp coding region of AIRE-1 in 12 British families with APS1. A 13-bp deletion (964del13) was found to account for 17 of the 24 possible mutant AIRE-1 alleles, in our kindreds. This mutation was found to occur de novo in one affected subject. A common haplotype spanning the AIRE-1 locus was found in chromosomes that carried the 964del13 mutation, suggesting a founder effect in our population. One of 576 normal subjects was also a heterozygous carrier of the 964del13 mutation. Six other point mutations were found in AIRE-1, including two 1-bp deletions, three missense mutations (R15L, L28P, and Y90C), and a nonsense mutation (R257*). The high frequency of the 964del13 allele and the clustering of the other AIRE-1 mutations may allow rapid molecular screening for APS1 in British kindreds. Furthermore, the prevalence of the 964del13 AIRE-1 mutation may have implications in the pathogenesis of the more common autoimmune endocrinopathies in our population.
+130381	368	377	(AIRE-1),	Gene	None
+130381	600	606	AIRE-1	Gene	None
+130381	659	667	964del13	Variant	None
+130381	723	729	AIRE-1	Gene	None
+130381	854	860	AIRE-1	Gene	None
+130381	909	917	964del13	Variant	None
+130381	1041	1049	964del13	Variant	None
+130381	1100	1107	AIRE-1,	Gene	None
+130381	1164	1168	R15L	Variant	None
+130381	1170	1174	L28P	Variant	None
+130381	1180	1184	Y90C	Variant	None
+130381	1212	1217	R257*	Variant	None
+130381	1246	1254	964del13	Variant	None
+130381	1294	1300	AIRE-1	Gene	None
+130381	1412	1420	964del13	Variant	None
+130381	1421	1427	AIRE-1	Gene	None
 
-40644|PMC:5278616|t|.
-40644|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
-
-40645|PMC:5278616|t|.
-40645|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
-
-40646|PMC:5278616|t|.
-40646|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
-
-40647|PMC:5278616|t|.
-40647|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
-
-40641|PMC:5278616|t|.
-40641|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
-
-40640|PMC:5278616|t|.
-40640|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
-
-40642|PMC:5278616|t|.
-40642|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
-
-40643|PMC:5278616|t|.
-40643|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
-
-40644|PMC:5278616|t|.
-40644|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
-
-40645|PMC:5278616|t|.
-40645|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
-
-40646|PMC:5278616|t|.
-40646|a|E, F. Increased S-phase arrest in HUWE1-knockout 293T (E) and HeLa (F) cells. Cycling cells were incubated with BrdU and subjected to BrdU/PI bi-dimensional flow cytometry. Representative flow cytometry profiles are presented in Fig EV1D-F. Bars represent the fold increase in the percentage of cells with S-phase DNA content (between 2N and 4N) but negative for BrdU staining. Bars represent the average of three independent experiments, with error bars showing SD. The p-values are 0.0091 (E) and 0.0007 (F).
-
-40647|PMC:5278616|t|.
-40647|a|C, D. HUWE1-knockout 392T (C) and HeLa (D) cells.
+127665|PMID:27930756|t|A Revised Approach for the Detection of Sight-Threatening Diabetic Macular Edema
+127665|a|Diabetic macular edema is one of the leading causes of vision loss among working-age adults in the United States. Telemedicine screening programs and epidemiological studies rely on monoscopic fundus photography for the detection of clinically significant macular edema (CSME). Improving the accuracy of detecting CSME from monoscopic images could be valuable while recognizing the limitations of such detection in an era of optical coherence tomography detection of diabetic macular edema. To evaluate the screening test accuracy of radially arranged sectors affected by hard exudates in the detection of CSME. This investigation was a cross-sectional study of CSME grading in monoscopic images using a sectors approach. The Early Treatment Diabetic Retinopathy Study criteria were used to confirm the presence of CSME by the following 2 methods: stereoscopic fundus photography (method 1) and dilated biomicroscopy in combination with optical coherence tomography (method 2). Participants were recruited at a university - based practice between June 14, 2014, and December 28, 2015. Area under the receiver operating characteristic curve, sensitivity, specificity, positive predictive value, and negative predictive value. A total of 207 eyes from an ethnically/racially diverse group of 207 patients (mean [SD] age, 53.6 [10.8] years; 58.9 [122 of 207] female) were included in the analysis. Twelve eyes (5.8) were diagnosed as having CSME based on method 1. The intermethod and intergrader agreement for CSME diagnosis and sector count was substantial (k range, 0.66 [95 CI, 0.47-0.85] to 0.75 [95 CI, 0.53-0.97]; P < .001 for all). Area under the receiver operating characteristic curve was 93.2 (95 CI, 84.2 -100) when evaluating a sectors approach against method 1 as a reference test and offered up to an 8.6 (95 CI, 3.0 -14.3) increase in specificity compared with the existing methods of detection. The positive predictive value was 33.3 (95 CI, 25.6 -45.5), and the negative predictive value was 98.1 (95 CI, 96.9 -100). The results were similar when comparing a sectors approach with method 2 as a reference test. A sectors approach shows good screening test characteristics for the detection of CSME. Its implementation in the existing telemedicine programs would require minimal resources. This approach will have the greatest effect in a setting where implementation of optical coherence tomography, a more objective and sensitive way to detect retinal thickening, is not feasible. The proposed method also may be easily incorporated in the automated diabetic retinopathy detection algorithms.
+127665	40	80	Sight-Threatening Diabetic Macular Edema	Disease	UMLS:C4027413
+127665	81	103	Diabetic macular edema	Disease	UMLS:C0730285
+127665	136	147	vision loss	Disease	UMLS:C0042798
+127665	314	350	clinically significant macular edema	Disease	UMLS:C0730284
+127665	352	356	CSME	Disease	UMLS:C0730284
+127665	395	399	CSME	Disease	UMLS:C0730284
+127665	548	570	diabetic macular edema	Disease	UMLS:C0730285
+127665	687	691	CSME	Disease	UMLS:C0730284
+127665	743	747	CSME	Disease	UMLS:C0730284
+127665	823	843	Diabetic Retinopathy	Disease	UMLS:C0011884
+127665	896	900	CSME	Disease	UMLS:C0730284
+127665	1321	1325	eyes	Anatomy	UMLS:C0015392
+127665	1483	1487	eyes	Anatomy	UMLS:C0015392
+127665	1519	1523	CSME	Disease	UMLS:C0730284
+127665	1589	1593	CSME	Disease	UMLS:C0730284
+127665	2289	2293	CSME	Disease	UMLS:C0730284
+127665	2541	2559	retinal thickening	Disease	UMLS:C1302690
+127665	2647	2667	diabetic retinopathy	Disease	UMLS:C0011884
