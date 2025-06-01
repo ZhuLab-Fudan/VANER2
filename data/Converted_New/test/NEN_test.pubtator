@@ -1,0 +1,84 @@
+18090|None|t|Variation in the CXCR1 gene (IL8RA) is not associated with susceptibility to chronic periodontitis.
+18090|a|BACKGROUND: The chemokine receptor 1 CXCR-1 (or IL8R-alpha) is a specific receptor for the interleukin 8 (IL-8), which is chemoattractant for neutrophils and has an important role in the inflammatory response. The polymorphism rs2234671 at position Ex2+860G>C of the CXCR1 gene causes a conservative amino acid substitution (S276T). This single nucleotide polymorphism (SNP) seemed to be functional as it was associated with decreased lung cancer risk. Previous studies of our group found association of haplotypes in the IL8 and in the CXCR2 genes with the multifactorial disease chronic periodontitis. In this study we investigated the polymorphism rs2234671 in 395 Brazilian subjects with and without chronic periodontitis. FINDINGS: Similar distribution of the allelic and genotypic frequencies were observed between the groups (p>0.05). CONCLUSIONS: The polymorphism rs2234671 in the CXCR1 gene was not associated with the susceptibility to chronic periodontitis in the studied Brazilian population.
+18090	17	22	CXCR1	Gene	NCBI Gene:3577
+18090	29	34	IL8RA	Gene	NCBI Gene:3577
+18090	116	143	chemokine receptor 1 CXCR-1	Gene	NCBI Gene:3577
+18090	148	158	IL8R-alpha	Gene	NCBI Gene:3577
+18090	191	204	interleukin 8	Gene	NCBI Gene:3576
+18090	206	210	IL-8	Gene	NCBI Gene:3576
+18090	367	372	CXCR1	Gene	NCBI Gene:3577
+18090	622	625	IL8	Gene	NCBI Gene:3576
+18090	637	642	CXCR2	Gene	NCBI Gene:3579
+18090	989	994	CXCR1	Gene	NCBI Gene:3577
+
+13702|None|t|Malignancy is associated with microcalcification and higher AP/T ratio in ultrasonography, but not with Hashimoto's thyroiditis in histopathology in patients with thyroid nodules evaluated as Bethesda Category III (AUS / FLUS) in cytology
+13702|a|The predictors of malignancy are important for the decision of appropriate management in nodules with atypia of undetermined significance / follicular lesion of undetermined significance (AUS / FLUS). Our aim was to determine the ultrasonographical, clinical, and biochemical predictors of malignancy in these patients. A total of 427 patients with cytologically Bethesda Category III (AUS / FLUS) thyroid nodules were included in this retrospective study. We divided the nodules into two subgroups according to the histopathology as benign and malignant, and compared the preoperative ultrasonographical, clinical, and biochemical findings. In overall, 427 patients with 449 AUS / FLUS nodules who had undergone surgery, the rate of malignancy was 23.4 (105/449). When evaluated separately, the rate of malignancy was 25.8 in nodules with AUS (82/318) and 17.6 in nodules with FLUS (23/131) (p = 0.061). The vast majority of malignant specimens in histopathology consisted of papillary thyroid carcinoma (PTC) (n = 91, 86.7 ). Preoperative ultrasonographic features of 105 malignant nodules in histopathology were compared with the 344 benign nodules in histopathology. Anteroposterior/Transverse (AP/T) ratio was significantly higher in malignant group compared to benign group (p = 0.013). In multiple logistic analysis, we found that higher AP/T ratio and microcalcification were independently associated with malignancy (p < 0.05). The malignancy -associated cut-off value of AP/T ratio at maximum sensitivity and specificity was >0.81. We did not find any correlation between malignancy and Hashimoto's thyroiditis in histopathology in multivariate analysis (p > 0.05). In Bethesda Category III nodules with higher AP/T ratio and microcalcification, surgery might be considered as a first therapeutic option instead of repeat fine-needle aspiration biopsy or observation.
+13702	0	10	Malignancy	Disease	MESH:D009369
+13702	30	48	microcalcification	Disease	MESH:D002114
+13702	104	127	Hashimoto's thyroiditis	Disease	MESH:D050031
+13702	163	178	thyroid nodules	Disease	MESH:D016606
+13702	192	213	Bethesda Category III	Disease	MESH:D016606
+13702	257	267	malignancy	Disease	MESH:D009369
+13702	328	335	nodules	Disease	MESH:D016606
+13702	529	539	malignancy	Disease	MESH:D009369
+13702	588	623	cytologically Bethesda Category III	Disease	MESH:D016606
+13702	637	652	thyroid nodules	Disease	MESH:D016606
+13702	711	718	nodules	Disease	MESH:D016606
+13702	926	933	nodules	Disease	MESH:D016606
+13702	973	983	malignancy	Disease	MESH:D009369
+13702	1043	1053	malignancy	Disease	MESH:D009369
+13702	1066	1073	nodules	Disease	MESH:D016606
+13702	1104	1111	nodules	Disease	MESH:D016606
+13702	1313	1330	malignant nodules	Disease	MESH:D016606
+13702	1599	1617	microcalcification	Disease	MESH:D002114
+13702	1653	1663	malignancy	Disease	MESH:D009369
+13702	1680	1690	malignancy	Disease	MESH:D009369
+13702	1821	1831	malignancy	Disease	MESH:D009369
+13702	1836	1859	Hashimoto's thyroiditis	Disease	MESH:D050031
+13702	1918	1947	Bethesda Category III nodules	Disease	MESH:D016606
+13702	1975	1993	microcalcification	Disease	MESH:D002114
+
+15071|None|t|Identification of novel macrolides with antibacterial, anti-inflammatory and type I and III IFN - augmenting activity in airway epithelium
+15071|a|Exacerbations of asthma and COPD are triggered by rhinoviruses. Uncontrolled inflammatory pathways, pathogenic bacterial burden and impaired antiviral immunity are thought to be important factors in disease severity and duration. Macrolides including azithromycin are often used to treat the above diseases, but exhibit variable levels of efficacy. Inhaled corticosteroids are also readily used in treatment, but may lack specificity. Ideally, new treatment alternatives should suppress unwanted inflammation, but spare beneficial antiviral immunity. In the present study, we screened 225 novel macrolides and tested them for enhanced antiviral activity against rhinovirus, as well as anti-inflammatory activity and activity against Gram-positive and Gram-negative bacteria. Primary bronchial epithelial cells were grown from 10 asthmatic individuals and the effects of macrolides on rhinovirus replication were also examined. Another 30 structurally similar macrolides were also examined. The oleandomycin derivative Mac5, compared with azithromycin, showed superior induction (up to 5-fold, EC 50 = 5-11 uM) of rhinovirus - induced type I IFNb, type III IFNr1 and type III IFNr2/3 mRNA and the IFN - stimulated genes viperin and MxA, yet had no effect on IL-6 and IL-8 mRNA. Mac5 also suppressed rhinovirus replication at 48 h, proving antiviral activity. Mac5 showed antibacterial activity against Gram-positive Streptococcus pneumoniae; however, it did not have any antibacterial properties compared with azithromycin when used against Gram-negative Escherichia coli (as a model organism) and also the respiratory pathogens Pseudomonas aeruginosa and non-typeable Haemophilus influenzae. Further non-toxic Mac5 derivatives were identified with various anti-inflammatory, antiviral and antibacterial activities. The data support the idea that macrolides have antiviral properties through a mechanism that is yet to be ascertained. We also provide evidence that macrolides can be developed with anti-inflammatory, antibacterial and antiviral activity and show surprising versatility depending on the clinical need.
+15071	24	34	macrolides	Chemical	MESH:D018942
+15071	77	83	type I	Chemical	MESH:D007372
+15071	88	95	III IFN	Chemical	MESH:D007372
+15071	369	379	Macrolides	Chemical	MESH:D018942
+15071	390	402	azithromycin	Chemical	MESH:D017963
+15071	437	445	diseases	Disease	MESH:D004194
+15071	635	647	inflammation	Disease	MESH:D007249
+15071	734	744	macrolides	Chemical	MESH:D018942
+15071	1009	1019	macrolides	Chemical	MESH:D018942
+15071	1098	1108	macrolides	Chemical	MESH:D018942
+15071	1133	1145	oleandomycin	Chemical	MESH:D009827
+15071	1157	1161	Mac5	Chemical	MESH:D009827
+15071	1177	1189	azithromycin	Chemical	MESH:D017963
+15071	1335	1338	IFN	Chemical	MESH:D007372
+15071	1416	1420	Mac5	Chemical	MESH:D009827
+15071	1497	1501	Mac5	Chemical	MESH:D009827
+15071	1648	1660	azithromycin	Chemical	MESH:D017963
+15071	1849	1853	Mac5	Chemical	MESH:D009827
+15071	1985	1995	macrolides	Chemical	MESH:D018942
+15071	2103	2113	macrolides	Chemical	MESH:D018942
+
+6861|None|t|(A) Top: schematic drawing depicts pan-neuronal expression of YFP in head and ventral neurons in the context of the C. elegans body plan. Left: micrographs show the SOD1G85R-YFP proteins expressed in WT or the spr-5(by134);ufd-2(tm1380) mutant background. The double-mutant worms show a marked decrease in protein aggregation in neurons. Enlarged sections of headneurons (red framed) and ventral cord neurons (white framed) are shown. Middle: quantification of locomotion in the spr-5(by134);ufd-2(tm1380) and the WT C. elegans with neuronal expression of SOD1G85R-YFP (n = 30). Right: a decrease in the protein levels of SOD1G85R-YFP in the presence of spr-5(by134);ufd-2(tm1380) is shown by western blots of the supernatant (S) and the pellet (P) fractions. (B and C) Analyses of the spr-5(by134);ufd-2(tm1380) and the WT C. elegans with neuronal expression of TDP-43-c25-YFP (n = 30) or PolyQ-YFP (n = 12) as in (A).
+6861|a|.
+6861	116	126	C. elegans	Species	NCBI taxon:6239
+6861	517	527	C. elegans	Species	NCBI taxon:6239
+6861	824	834	C. elegans	Species	NCBI taxon:6239
+
+4255|None|t|(f) Mortality rate of WT and Hace1-/- mice after sTAC is shown by Kaplan-Meier plots as the survival proportion of each cohort of mice. Survival incidence in mice over the indicated follow-up period is shown as the ratio of the number of mice survived/total mice analysed for each group. This represents 60 (12/20) for Hace1-/- sTACmice, 84 (16/19) for Hace1+/+ sTAC mice and 100 (12/12) for both Hace1-/- and Hace1+/+ sham mice on day 4; P value as indicated (log-rank X2-test).
+4255|a|.
+4255	38	42	mice	Species	NCBI taxon:10090
+4255	130	134	mice	Species	NCBI taxon:10090
+4255	158	162	mice	Species	NCBI taxon:10090
+4255	238	242	mice	Species	NCBI taxon:10090
+4255	258	262	mice	Species	NCBI taxon:10090
+4255	332	336	mice	Species	NCBI taxon:10090
+4255	367	371	mice	Species	NCBI taxon:10090
+
+1999|None|t|MDM were pretreated with bafilomycin A1 (Baf A1) before treatment with 1,25D3 and subsequent infection with HIV and/or M. tuberculosis (TB). (A) ELISA performed for HIVp24 antigen release at days 0, 4 and 7.
+1999|a|.
+1999	108	111	HIV	Species	NCBI taxon:11676
+1999	119	134	M. tuberculosis	Species	NCBI taxon:83332
+1999	165	168	HIV	Species	NCBI taxon:11676
