@@ -3,6 +3,7 @@ import argparse
 import time
 import torch
 import flair
+import glob
 from tqdm import tqdm
 from typing import Dict, List, Tuple
 from bioc import pubtator
@@ -137,10 +138,8 @@ if __name__ == '__main__':
 
     print(f"Loading entity linking models: {entity_types}")
 
-    ## Download entity linking models
     linkers = {et: EntityMentionLinker.load(f"{et.lower()}-linker") for et in entity_types}
 
-    ## Load entity linking models locally
     # linker_path = './Hunflair2_pretrained_models/'
     # linkers = {et: EntityMentionLinker.load(linker_path + f"{et.lower()}_linker/pytorch_model.bin") for et in entity_types}
 
@@ -152,8 +151,8 @@ if __name__ == '__main__':
     for name in model_names:
         file_path = base_path + name + '/predictions/'
         if os.path.exists(file_path):
-            for file_name in os.listdir(file_path):
-                print('Running NEN on:', file_name)
+            for file_name in glob.glob(file_path + '*.pubtator'):
+                print('filepath:', file_path)
                 all_ids, all_lines, all_texts, all_annos = read_pub(file_path + file_name)
                 all_annos = run_nen(linkers, all_ids, all_texts, all_annos, batch_size = 128)
 
