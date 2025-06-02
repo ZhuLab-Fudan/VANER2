@@ -128,7 +128,8 @@ def count_tp(all_doc_annos, all_doc_gold_annos, select_type = None, evaluate_NEN
             total_NEN_fn += NEN_tot_gold_annos - NEN_tp
 
     all_NER_results = np.array([total_NER_tp, total_NER_fp, total_NER_fn, nwrong, nmiss, nmore, nless, noverlap])
-    all_NEN_results = np.array([total_NEN_tp, total_NEN_fp, total_NEN_fn])
+    if evaluate_NEN:
+        all_NEN_results = np.array([total_NEN_tp, total_NEN_fp, total_NEN_fn])
 
     return all_NER_results, all_NEN_results if evaluate_NEN else None
 
@@ -219,7 +220,7 @@ if __name__ == '__main__':
     evaluate_NEN = args.evaluate_NEN.lower() == 'true'
     dataset_folder = args.dataset_folder
     base_path = './results/' + dataset_folder + '/'
-    gold_annos_path = './data/' + dataset_folder + '/test/'
+    gold_annos_path = './data/Medical_NER_datasets/' + dataset_folder + '/test/'
 
     # Automatically Evaluate all model predictions for each dataset
     for name in os.listdir(path=base_path):
