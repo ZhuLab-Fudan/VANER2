@@ -169,7 +169,7 @@ def save_metrics(save_path, all_metrics):
         file.write('__________________________________________________\n')
 
 def summarize(base_path, input_file, output_file):
-    entity_types = ['Gene', 'Chemical', 'Disease', 'Species', 'CellLine', 'Variant', 'Anatomy', 'CellType', 'CellComponent']
+    entity_types = ['Gene', 'Chemical', 'Disease', 'Species', 'CellLine', 'Variant', 'Anatomy', 'CellType']
     outfile = open(output_file, 'w', encoding='utf-8')
 
     models = []
