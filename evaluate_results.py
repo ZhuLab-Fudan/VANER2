@@ -152,8 +152,8 @@ def save_metrics(save_path, all_metrics):
             file.write(line2)
 
             if len(cur_metrics[type]) == 11:
-                line3 = "Nwrong: {:.0f}  Nmiss: {:.0f}  Nmore: {:.0f}  Nless: {:.0f}  Noverlap: {:.0f}\n\n".format(
-                    *list(cur_metrics[type][6:11]))
+                line3 = "Ncorrect: {:.0f}  Nwrong: {:.0f}  Nmiss: {:.0f}  Nmore: {:.0f}  Nless: {:.0f}  Noverlap: {:.0f}\n\n".format(
+                    cur_metrics[type][3], *list(cur_metrics[type][6:11]))
                 file.write(line3)
 
         precision, recall, f_score = prf_metrics(*list(temp_metrics[3:]))
